@@ -8,6 +8,13 @@
 * [Update Avante theme](getting-started/update-avante-theme.md)
 * [Theme license & Transfer](getting-started/theme-license-and-transfer.md)
 
+## Global Sections
+
+* [Header](global-sections/header.md)
+* [Footer](global-sections/footer.md)
+* [Cart drawer](global-sections/cart-drawer.md)
+* [Mobile header](global-sections/mobile-header.md)
+
 ## Theme Settings
 
 * [Colors](theme-settings/colors.md)
@@ -18,6 +25,13 @@
 * [Navigation](theme-settings/navigation.md)
 * [Variant selector](theme-settings/variant-selector.md)
 * [Cart](theme-settings/cart.md)
+
+## Collections & Products
+
+* [Collection page](collections-and-products/collection-page.md)
+* [Filters & search](collections-and-products/filters-and-search.md)
+* [Product page](collections-and-products/product-page.md)
+* [Product variants](collections-and-products/product-variants.md)
 
 ## Sections
 
