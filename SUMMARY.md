@@ -1,58 +1,50 @@
 # Table of contents
 
 * [Welcome to Avante Documentation](README.md)
-* [Policies & Legal](policies-and-legal.md)
 
 ## Getting Started
 
-* [Install Avante theme](getting-started/install-avante-theme.md)
+* [Install & activate Avante](getting-started/install-avante-theme.md)
 * [Update Avante theme](getting-started/update-avante-theme.md)
 * [Theme license & Transfer](getting-started/theme-license-and-transfer.md)
 
-## Theme blocks
+## Theme Settings
 
-* [Core concepts](theme-blocks/core-concepts.md)
-* [Workspaces and projects](theme-blocks/workspaces-and-projects.md)
-* [Permissions](theme-blocks/permissions.md)
+* [Colors](theme-settings/colors.md)
+* [Typography](theme-settings/typography.md)
+* [Appearance](theme-settings/appearance.md)
+* [Shapes](theme-settings/shapes.md)
+* [Animation](theme-settings/animation.md)
+* [Navigation](theme-settings/navigation.md)
+* [Variant selector](theme-settings/variant-selector.md)
+* [Cart](theme-settings/cart.md)
 
-## Global sections
+## Sections
 
-* [Guides](global-sections/guides.md)
-* [Custom domains](global-sections/custom-domains.md)
-* [Automations](global-sections/automations.md)
+* [Overview](sections/README.md)
 
-## Theme sections
+## Templates
 
-* [Reference](theme-sections/reference.md)
-* [Configuration](theme-sections/configuration.md)
-* [Glossary](theme-sections/glossary.md)
+* [Overview](templates/README.md)
 
-## Global settings
+## Features & Advanced Setup
 
-* [Reference](global-settings/reference.md)
-* [Configuration](global-settings/configuration.md)
-* [Glossary](global-settings/glossary.md)
+* [Mega menu & Hover mega menu](features/mega-menu.md)
+* [Transparent header](features/transparent-header.md)
+* [Store Selector](features/store-selector.md)
+* [How to set up color swatches](features/color-swatches.md)
+* [Product subtitle](features/product-subtitle.md)
+* [Display only media related to chosen variant](features/display-variant-media.md)
+* [Variant images vs. Color Swatches](features/variant-images-vs-color-swatches.md)
 
-## Theme settings
+## FAQ
 
-* [Reference](theme-settings/reference.md)
-* [Configuration](theme-settings/configuration.md)
-* [Glossary](theme-settings/glossary.md)
+* [Frequently asked questions](faq/README.md)
 
-## Collections & Products
+## Changelog
 
-* [Reference](collections-and-products/reference.md)
-* [Configuration](collections-and-products/configuration.md)
-* [Glossary](collections-and-products/glossary.md)
+* [Changelog](changelog/README.md)
 
-## Other pages
+## Policies & Legal
 
-* [Reference](other-pages/reference.md)
-* [Configuration](other-pages/configuration.md)
-* [Glossary](other-pages/glossary.md)
-
-## FAQs
-
-* [Reference](faqs/reference.md)
-* [Configuration](faqs/configuration.md)
-* [Glossary](faqs/glossary.md)
+* [Policies & Legal](policies-and-legal.md)
