@@ -55,9 +55,6 @@
 
 * [Frequently asked questions](faq/README.md)
 
-## Changelog
-
-* [Changelog](changelog/README.md)
 
 ## Policies & Legal
 
