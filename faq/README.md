@@ -25,8 +25,6 @@ _If you want to start with the exact setup shown in one of our demos, it is best
 
 ***
 
-### My theme settings reset after an update — what happened?
-
 This is expected behavior for **major version updates** (e.g. v12 → v13). When the theme's internal structure changes significantly, Shopify cannot automatically migrate your settings.
 
 **What transfers automatically:** Your Shopify Admin content (products, pages, collections, blog posts).
