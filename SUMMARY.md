@@ -55,7 +55,6 @@
 
 * [Frequently asked questions](faq/README.md)
 
-
 ## Policies & Legal
 
-* [Policies & Legal](policies-and-legal.md)
+* [Privacy policy](policies-and-legal.md)
