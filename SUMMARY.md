@@ -58,3 +58,6 @@
 ## Policies & Legal
 
 * [Privacy policy](policies-and-legal.md)
+* [Refund Policy](policies-and-legal/policies-and-legal-1.md)
+* [Support Policy](policies-and-legal/policies-and-legal-2.md)
+* [Terms of Service](policies-and-legal/policies-and-legal-3.md)
