@@ -1,14 +1,29 @@
 # Frequently asked questions
 
-## Theme setup
+### Theme setup
 
-### What's the difference between Adelle, Bloop, Fairmont, Vortex, and Avante?
+<details>
 
-They're all the same theme — just different built-in presets (style starting points). To switch: **Theme Editor → Theme settings → Theme style**.
+<summary><strong>What's the difference between Adelle, Bloop, Fairmont, Vortex, and Avante?</strong></summary>
 
-Note: switching presets doesn't automatically apply demo content. If you want to start fresh with a preset's full demo layout, install it directly from the Shopify Theme Store.
+Fairmont, Vortex, Adelle, Bloop, and Avante are not separate themes that you need to purchase individually. They are simply built-in style presets (theme styles) included within the Avante theme.You can easily switch between these presets to instantly change the overall look and feel of your store.
 
----
+How to switch between presets:
+
+1. Open your **Theme Editor** (Edit theme).
+2. Click on the Theme settings icon (**gear icon**) on the left sidebar.
+3. Scroll down and click on **Theme style**.
+4. Select the preset you want to apply (e.g., Adelle, Bloop, etc.).
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-08 at 17.17.49.png" alt=""><figcaption></figcaption></figure>
+
+_**Note**: Switching presets updates the visual settings (colors, fonts, etc.), but Shopify does not automatically apply the full demo content structure._&#x20;
+
+_If you want to start with the exact setup shown in one of our demos, it is best to install that specific preset fresh directly from the Shopify Theme Store._
+
+</details>
+
+***
 
 ### My theme settings reset after an update — what happened?
 
@@ -22,7 +37,7 @@ For **minor/patch updates** (e.g. v13.0.0 → v13.0.1), all settings transfer au
 
 If you need help migrating your design to the latest version, contact us — this is available as a custom dev task at $80/hour.
 
----
+***
 
 ### A page template isn't showing in the Shopify Admin dropdown
 
@@ -30,7 +45,7 @@ Shopify only shows templates from your **currently published (live) theme** in t
 
 **Fix:** Create the template in your live theme first (**Theme Editor → Pages → Create template**), then assign it to your page in Shopify Admin.
 
----
+***
 
 ### How do I create a FAQ page with expandable questions?
 
@@ -39,7 +54,7 @@ Shopify only shows templates from your **currently published (live) theme** in t
 3. In **Theme Editor → Pages → FAQ template**, add a **Collapsible tabs** section
 4. Fill in your questions and answers as tab items
 
----
+***
 
 ### Can I use custom fonts?
 
@@ -47,7 +62,7 @@ Shopify's native font picker only supports fonts from the Shopify/Google font li
 
 To use your own WOFF/WOFF2 files, it requires uploading font files to your Assets folder and writing `@font-face` rules in `custom-styles.css`. This is a code task — contact us if you'd like us to handle it ($80/hour, approx. 1 hour).
 
----
+***
 
 ## Navigation
 
@@ -57,7 +72,7 @@ The **Dropdown link** field in the Mega menu block must exactly match the menu i
 
 > ⚠️ Do not translate this field using Translate & Adapt — it's an internal reference, not visible text.
 
----
+***
 
 ### How do I create nested / dropdown menus?
 
@@ -70,7 +85,7 @@ Menu nesting is set in **Shopify Admin**, not the Theme Editor:
 
 The theme will automatically render the nesting as dropdowns or a Mega menu depending on your Header settings.
 
----
+***
 
 ### Transparent header isn't working
 
@@ -81,7 +96,7 @@ Two settings must be active at the same time:
 
 If only one is enabled, the effect won't appear. See [Transparent header](../features/transparent-header.md) for the full guide.
 
----
+***
 
 ### On mobile, tapping a parent menu item navigates away instead of expanding the submenu
 
@@ -97,7 +112,7 @@ To disable navigation on the parent item, add one line of CSS to **Theme setting
 
 Find the exact class name via browser DevTools → Elements → find the `<a>` tag of the menu item → look for `link-[name]` in its class attribute.
 
----
+***
 
 ## Products & variants
 
@@ -106,7 +121,7 @@ Find the exact class name via browser DevTools → Elements → find the `<a>` t
 1. In **Theme Editor → Products → Product overview section**, make sure **"Show the first image instead of the variant's"** is **unchecked**
 2. If using **"Show only media of selected variant"**, add the variant name in brackets to each image's Alt text in Shopify Admin — e.g. `(Red)`, `(Blue)`
 
----
+***
 
 ### How do I add a Pre-order button?
 
@@ -115,7 +130,7 @@ Find the exact class name via browser DevTools → Elements → find the `<a>` t
 3. Change from `Default product` to `pre-order`
 4. Save — the button automatically changes to "Pre-order"
 
----
+***
 
 ### How do I show color swatches and a short description on collection cards?
 
@@ -123,17 +138,17 @@ Find the exact class name via browser DevTools → Elements → find the `<a>` t
 
 **Short description:** Requires setting up the Product subtitle metafield — see [Product subtitle](../features/product-subtitle.md) for the full guide.
 
----
+***
 
 ### A variant shows "Unavailable" but the product is in stock
 
 "Unavailable" means that specific combination of options hasn't been created in your product setup — it's different from "Sold out."
 
-Go to **Shopify Admin → Products → [product] → Variants** and check that all combinations you want to offer are listed with inventory assigned.
+Go to **Shopify Admin → Products → \[product] → Variants** and check that all combinations you want to offer are listed with inventory assigned.
 
 Also check: if you're testing from a country outside your store's shipping zones, Shopify shows products as unavailable. Test with a VPN set to your target market.
 
----
+***
 
 ### Quick View / Quick Add buttons aren't visible on mobile
 
@@ -141,7 +156,7 @@ These buttons appear on hover by default. Since mobile devices don't have a hove
 
 To make them permanently visible on mobile, add a CSS snippet to **Theme settings → Custom CSS**. Contact us if you need help with this.
 
----
+***
 
 ## Performance
 
@@ -149,13 +164,13 @@ To make them permanently visible on mobile, add a CSS snippet to **Theme setting
 
 The theme itself is rarely the cause. Most common culprits:
 
-- **Large images or videos** — compress images to under 500 KB, videos to 2–5 MB
-- **Third-party app scripts** — loyalty programs, chat widgets, tracking pixels each add JavaScript that loads on every page
-- **Too many active apps** — disable apps you don't actively use
+* **Large images or videos** — compress images to under 500 KB, videos to 2–5 MB
+* **Third-party app scripts** — loyalty programs, chat widgets, tracking pixels each add JavaScript that loads on every page
+* **Too many active apps** — disable apps you don't actively use
 
 Always test your live store in incognito mode at [PageSpeed Insights](https://pagespeed.web.dev/). Preview links bypass Shopify's CDN cache and always show lower scores.
 
----
+***
 
 ### The Checkout button is slow or unresponsive
 
@@ -163,7 +178,7 @@ Almost always caused by third-party scripts blocking the browser's main thread �
 
 Check: **Settings → Customer Events** and remove any unused tracking pixels. Common culprits: Klarna, Omnisend, loyalty app pixels. Note that disabling an app doesn't automatically remove its Web Pixel — you must delete it manually from Customer Events.
 
----
+***
 
 ## Shopify platform limitations
 
@@ -173,19 +188,20 @@ The checkout page is managed entirely by Shopify. Customization beyond basic bra
 
 For standard plans: **Shopify Admin → Settings → Checkout → Branding**.
 
----
+***
 
 ### Can I add a wishlist?
 
 Wishlist functionality requires saving data to a user account, which needs database access. This is not permitted in Shopify themes per the Shopify Theme Store requirements.
 
 Recommended apps:
-- [Wishlist Plus](https://apps.shopify.com/swym-relay) by Swym
-- [Growave](https://apps.shopify.com/growave) (wishlist + reviews + loyalty)
+
+* [Wishlist Plus](https://apps.shopify.com/swym-relay) by Swym
+* [Growave](https://apps.shopify.com/growave) (wishlist + reviews + loyalty)
 
 Both integrate with Avante.
 
----
+***
 
 ## Licensing
 
@@ -195,7 +211,7 @@ Per Shopify's licensing policy, one purchase covers one store. Using the theme o
 
 Acceptable staging approach: use a **password-protected** duplicate of your store. Keep it private (password enabled at all times).
 
----
+***
 
 ### How do I transfer Avante to a new store?
 
