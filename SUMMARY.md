@@ -54,8 +54,23 @@
 ## FAQ
 
 * [Frequently asked questions](faq/README.md)
+* [Copy of Frequently asked questions](faq/faq-1.md)
 * [Theme setup](faq/theme-setup/README.md)
   * [Overview](faq/theme-setup/overview.md)
+* [Navigation](faq/navigation/README.md)
+  * [Overview](faq/navigation/overview.md)
+* [Products & variants](faq/products-and-variants/README.md)
+  * [Overview](faq/products-and-variants/overview.md)
+* [Localization](faq/localization/README.md)
+  * [Overview](faq/localization/overview.md)
+* [Performance](faq/performance/README.md)
+  * [Overview](faq/performance/overview.md)
+* [Design, sections & media](faq/design-sections-and-media/README.md)
+  * [Overview](faq/design-sections-and-media/overview.md)
+* [Shopify platform limitations](faq/shopify-platform-limitations/README.md)
+  * [Overview](faq/shopify-platform-limitations/overview.md)
+* [Licensing](faq/licensing/README.md)
+  * [Overview](faq/licensing/overview.md)
 
 ## Policies & Legal
 
