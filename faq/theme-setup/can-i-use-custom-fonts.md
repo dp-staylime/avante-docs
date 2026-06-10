@@ -12,5 +12,5 @@ Using custom WOFF or WOFF2 files requires a code edit: uploading font files to y
 
 Our team can set this up for you as a custom development task. Estimated time: **\~1 hour / $80**.
 
-[Contact support →](https://staylime.zendesk.com/hc/en-us/requests/new)
+{% embed url="https://staylime.zendesk.com/hc/en-us/requests/new" %}
 
