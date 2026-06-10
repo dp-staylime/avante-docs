@@ -1,49 +1,5 @@
 # Copy of Frequently asked questions
 
-### Theme setup
-
-<details>
-
-<summary><strong>What's the difference between Adelle, Bloop, Fairmont, Vortex, and Avante?</strong></summary>
-
-Fairmont, Vortex, Adelle, Bloop, and Avante are not separate themes that you need to purchase individually. They are simply built-in style presets (theme styles) included within the Avante theme.You can easily switch between these presets to instantly change the overall look and feel of your store.
-
-How to switch between presets:
-
-1. Open your **Theme Editor** (Edit theme).
-2. Click on the Theme settings icon (**gear icon**) on the left sidebar.
-3. Scroll down and click on **Theme style**.
-4. Select the preset you want to apply (e.g., Adelle, Bloop, etc.).
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-06-08 at 17.17.49.png" alt=""><figcaption></figcaption></figure>
-
-_**Note**: Switching presets updates the visual settings (colors, fonts, etc.), but Shopify does not automatically apply the full demo content structure._&#x20;
-
-_If you want to start with the exact setup shown in one of our demos, it is best to install that specific preset fresh directly from the Shopify Theme Store._
-
-</details>
-
-<details>
-
-<summary><strong>My theme settings reset after an update — what happened?</strong></summary>
-
-When updating your theme, you might notice that your visual settings (colors, fonts, section layouts) have disappeared. This is standard Shopify platform behavior that depends on the type of update you are installing.&#x20;
-
-**Major vs. Minor Updates:**
-
-* **Minor/Patch updates** (e.g., from v13.0.0 to v13.0.1): Shopify’s automated update process will smoothly transfer all your visual settings and layouts without any data loss.
-* **Major updates** (e.g., from v13.0.x to v14.0.0): These updates contain significant architectural changes to the theme's core files. Because the internal structure changes, Shopify cannot automatically transfer your Theme Editor settings, and they are reset to defaults.
-
-**What transfers automatically during a Major Update?**
-
-* All content managed in your Shopify Admin remains perfectly safe (Products, Collections, Pages, Blog posts, Navigation menus).
-
-**How to fix this:** After a major update, you will need to manually reconfigure your settings (colors, fonts, and section blocks) in the Theme Editor to match your previous design.
-
-</details>
-
-***
-
 ### A page template isn't showing in the Shopify Admin dropdown
 
 Shopify only shows templates from your **currently published (live) theme** in the Admin dropdown. Templates created in a draft theme don't appear there.
