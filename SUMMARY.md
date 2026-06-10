@@ -94,12 +94,12 @@
   * [Can I use Avante on a staging store?](faq/licensing/can-i-use-avante-on-a-staging-store.md)
   * [How do I transfer Avante to a new store?](faq/licensing/how-do-i-transfer-avante-to-a-new-store.md)
 
-## Policies & Legal
+## Policies & Legal <a href="#legal" id="legal"></a>
 
-* [Privacy policy](policies-and-legal.md)
-* [Refund Policy](policies-and-legal/policies-and-legal-1.md)
-* [Support Policy](policies-and-legal/policies-and-legal-2.md)
-* [Terms of Service](policies-and-legal/policies-and-legal-3.md)
+* [Privacy policy](legal/privacy-policy.md)
+* [Refund Policy](legal/refund-policy.md)
+* [Support Policy](legal/support-policy.md)
+* [Terms of Service](legal/terms-of-service.md)
 
 ## Changelog
 
