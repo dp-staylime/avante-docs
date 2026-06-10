@@ -23,17 +23,24 @@ _If you want to start with the exact setup shown in one of our demos, it is best
 
 </details>
 
-***
+<details>
 
-This is expected behavior for **major version updates** (e.g. v12 → v13). When the theme's internal structure changes significantly, Shopify cannot automatically migrate your settings.
+<summary><strong>My theme settings reset after an update — what happened?</strong></summary>
 
-**What transfers automatically:** Your Shopify Admin content (products, pages, collections, blog posts).
+When updating your theme, you might notice that your visual settings (colors, fonts, section layouts) have disappeared. This is standard Shopify platform behavior that depends on the type of update you are installing.&#x20;
 
-**What doesn't transfer:** Theme Editor settings (fonts, colors, section content, layout choices).
+**Major vs. Minor Updates:**
 
-For **minor/patch updates** (e.g. v13.0.0 → v13.0.1), all settings transfer automatically.
+* **Minor/Patch updates** (e.g., from v13.0.0 to v13.0.1): Shopify’s automated update process will smoothly transfer all your visual settings and layouts without any data loss.
+* **Major updates** (e.g., from v13.0.x to v14.0.0): These updates contain significant architectural changes to the theme's core files. Because the internal structure changes, Shopify cannot automatically transfer your Theme Editor settings, and they are reset to defaults.
 
-If you need help migrating your design to the latest version, contact us — this is available as a custom dev task at $80/hour.
+**What transfers automatically during a Major Update?**
+
+* All content managed in your Shopify Admin remains perfectly safe (Products, Collections, Pages, Blog posts, Navigation menus).
+
+**How to fix this:** After a major update, you will need to manually reconfigure your settings (colors, fonts, and section blocks) in the Theme Editor to match your previous design.
+
+</details>
 
 ***
 

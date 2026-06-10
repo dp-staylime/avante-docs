@@ -54,6 +54,8 @@
 ## FAQ
 
 * [Frequently asked questions](faq/README.md)
+* [Theme setup](faq/theme-setup/README.md)
+  * [Overview](faq/theme-setup/overview.md)
 
 ## Policies & Legal
 
