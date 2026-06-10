@@ -53,8 +53,8 @@
 
 ## FAQ
 
-* [Frequently asked questions](faq/README.md)
-* [Copy of Frequently asked questions](faq/faq-1.md)
+* [Overview](faq/overview.md)
+* [Copy of Frequently asked questions](faq/faq.md)
 * [Theme setup](faq/theme-setup/README.md)
   * [Overview](faq/theme-setup/overview.md)
 * [Navigation](faq/navigation/README.md)
