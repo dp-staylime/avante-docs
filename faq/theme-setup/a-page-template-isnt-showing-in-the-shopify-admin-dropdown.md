@@ -1,30 +1,29 @@
 # A page template isn't showing in the Shopify Admin dropdown
 
-If you created a new page template in the Theme Editor (e.g., `FAQ` or `About Us`) but cannot find it in the Shopify Admin when trying to assign it to a page, this is due to how Shopify handles unpublished themes.
+If you created a new page template in the Theme Editor but can't find it when assigning it to a page in Shopify Admin, this is standard Shopify behavior.
 
 {% hint style="success" icon="sparkles" %}
-The template dropdown in the Shopify Admin only displays templates that **exist in your currently published (Live) theme**.&#x20;
+The template dropdown in Shopify Admin only shows templates that exist in your currently **published (Live) theme**. Templates created in a draft theme are not visible there.
 {% endhint %}
-
-If you are customizing Avante as a draft (unpublished) theme, the new templates will be hidden.&#x20;
 
 ### How to fix this:
 
-1. Go to your Live theme in Shopify Admin → Online Store → Themes.
-2. Click Customize on the Live theme.
-3. Use the top dropdown menu, go to Pages, and click Create template. Name it exactly as you need (e.g., `FAQ`). `[Вставить скриншот: Theme Editor Live-темы -> Создание пустого шаблона]`
-4. Exit the Theme Editor and go to Shopify Admin → Pages.
-5. Select your page and assign it to the newly created template. It will now appear in the dropdown. `[Вставить скриншот: Shopify Admin -> Настройки страницы -> Выбор шаблона]`
-6. Finally, go to your working (Draft) Avante theme and create the exact same template there. It will now be properly linked!
+1. Go to **Shopify Admin → Online Store → Themes**
+2. Click **Edit theme** on your **Live theme**
+3. Open the top dropdown → go to **Pages** → click **Create template**
+4. Name it exactly as needed (e.g. `FAQ`)
 
-Shopify only shows templates from your **published theme** in the Admin dropdown.
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-10 at 17.37.18.png" alt=""><figcaption></figcaption></figure>
 
-Templates created in a draft theme do not appear there.
+5. Exit the Theme Editor and go to **Shopify Admin → Online Store → Pages**
+6. Open your page and assign it to the new template in the **Template** dropdown on the right
 
-### Fix
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-10 at 17.39.39.png" alt=""><figcaption></figcaption></figure>
 
-1. Open **Theme Editor** for your live theme.
-2. Go to **Pages**.
-3. Click **Create template**.
-4. Return to **Shopify Admin → Online Store → Pages**.
-5. Assign that template to the page.
+7. Go back to your **draft Avante theme** and create the same template there — it will now be properly linked
+
+{% hint style="info" icon="lightbulb" %}
+**Note:** Always create new templates in your Live theme first.&#x20;
+
+That's the only way they appear in the Shopify Admin dropdown.
+{% endhint %}
