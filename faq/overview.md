@@ -1,4 +1,4 @@
-# Frequently asked questions
+# Overview
 
 Can't find what you're looking for?\
 Browse by topic below or use the search at the top of the page.
@@ -9,4 +9,6 @@ Browse by topic below or use the search at the top of the page.
 
 ***
 
-#### Still need help? [Contact our support team →](https://staylime.zendesk.com/hc/en-us/requests/new)
+#### Still need help? Contact our support team.
+
+{% embed url="https://staylime.zendesk.com/hc/en-us/requests/new" %}
