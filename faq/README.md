@@ -7,6 +7,8 @@ Browse by topic below or use the search at the top of the page.
 
 ### Theme setup
 
+<table data-view="cards"><thead><tr><th></th><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3><a href="theme-setup/">Theme setup</a></h3></td><td>Getting started, updates, templates, and fonts. </td><td><a href="theme-setup/">theme-setup</a></td></tr></tbody></table>
+
 Getting started, updates, templates, and fonts. → [Go to Theme setup](theme-setup/)
 
 ### Navigation
