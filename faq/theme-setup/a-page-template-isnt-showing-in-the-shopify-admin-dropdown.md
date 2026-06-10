@@ -22,7 +22,7 @@ The template dropdown in Shopify Admin only shows templates that exist in your c
 
 7. Go back to your **draft Avante theme** and create the same template there — it will now be properly linked
 
-{% hint style="info" icon="lightbulb" %}
+{% hint style="warning" icon="lightbulb" %}
 **Note:** Always create new templates in your Live theme first.&#x20;
 
 That's the only way they appear in the Shopify Admin dropdown.
