@@ -26,6 +26,6 @@ Exceptional UX built into every detail—engineered for conversion & growth by t
 [install-avante-theme.md](getting-started/install-avante-theme.md)
 {% endcontent-ref %}
 
-{% content-ref url="getting-started/install-avante-theme.md" %}
-[install-avante-theme.md](getting-started/install-avante-theme.md)
+{% content-ref url="https://app.gitbook.com/s/6DraMvJNYYlFJqlho1aV/faq" %}
+[FAQ](https://app.gitbook.com/s/6DraMvJNYYlFJqlho1aV/faq)
 {% endcontent-ref %}
