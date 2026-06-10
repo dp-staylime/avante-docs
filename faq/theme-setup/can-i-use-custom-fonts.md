@@ -2,8 +2,14 @@
 
 Shopify's built-in font picker only supports fonts from the Shopify and Google font library.
 
-Custom WOFF or WOFF2 files require a code edit.
+Using custom WOFF or WOFF2 files requires a code edit: uploading font files to your theme assets and adding `@font-face` declarations in the CSS.
 
-That means uploading font files to your theme assets and adding custom font declarations.
+{% hint style="warning" icon="triangle-exclamation" %}
+**Important:** This is not a Theme Editor setting. It requires direct access to your theme files.
+{% endhint %}
 
-If you want help with that setup, contact support.
+### Need help?
+
+Our team can set this up for you as a custom development task. Estimated time: **\~1 hour / $80**.
+
+[Contact support →](mailto:support@staylime.com)

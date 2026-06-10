@@ -15,7 +15,7 @@ Switching styles changes the overall visual look of your store, including colors
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-06-08 at 17.17.49.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="warning" icon="triangle-exclamation" %}
 Switching presets updates visual settings only.
 
 Shopify does not automatically recreate the full demo content structure.
