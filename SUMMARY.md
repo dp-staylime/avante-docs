@@ -54,7 +54,6 @@
 ## FAQ
 
 * [Overview](faq/overview.md)
-* [Copy of Frequently asked questions](faq/faq.md)
 * [Theme setup](faq/theme-setup/README.md)
   * [What's the difference between Adelle, Bloop, Fairmont, Vortex, and Avante?](faq/theme-setup/whats-the-difference-between-adelle-bloop-fairmont-vortex-and-avante.md)
   * [My theme settings reset after an update — what happened?](faq/theme-setup/my-theme-settings-reset-after-an-update-what-happened.md)
