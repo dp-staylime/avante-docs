@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Welcome to Avante Documentation](README.md)
+
 ## Getting Started
 
-* [Install & activate Avante](README.md)
+* [Install & activate Avante](<README (1).md>)
 * [Update Avante theme](getting-started/update-avante-theme.md)
 * [Theme license & Transfer](getting-started/theme-license-and-transfer.md)
 
@@ -62,10 +64,6 @@
 * [Product subtitle](features/product-subtitle.md)
 * [Display only media related to chosen variant](features/display-variant-media.md)
 * [Variant images vs Color Swatches](features/variant-images-vs-color-swatches.md)
-
-***
-
-* [Welcome to Avante Documentation](<README (1).md>)
 
 ## FAQ
 

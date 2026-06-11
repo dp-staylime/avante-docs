@@ -1,62 +1,31 @@
 ---
-description: A guide to install Avante from your Shopify store
+description: >-
+  Your go-to guide for installing, customizing, and scaling with the Avante
+  theme.
 ---
 
-# Install & activate Avante
+# Welcome to Avante Documentation
 
-### Try Avante for free
+## What is Avante Shopify theme?
 
 <figure><img src=".gitbook/assets/Group 1.png" alt=""><figcaption></figcaption></figure>
 
-If you want to explore the theme before committing to a purchase, Shopify lets you install it as a trial theme. This gives you a chance to see how it looks and functions with your own products and branding.
+<p align="center"><a href="https://themes.shopify.com/themes/avante/presets/avante">Install Avante from Shopify Theme Store</a></p>
 
-{% hint style="success" %}
-**Steps:**
+**Avante** is a beautifully refined Shopify theme designed to help brands showcase their products with effortless style.
 
-1. Visit the [Shopify Theme Store](https://themes.shopify.com/) and choose **Avante** them&#x65;**.**
-2. Click **Try theme** to add the trial theme to your online store.
-3. The theme will appear in your **Theme Library**, where you can customize it safely without affecting your live store.
-{% endhint %}
+Exceptional UX built into every detail—engineered for conversion & growth by top-ranked ecommerce developers. Powering thousands of stores. Avante theme is a product of [Staylime](https://staylime.com/).
 
-{% hint style="warning" icon="lightbulb" %}
-**Pro tip:** The trial version has no time limit — take as much time as you need to test all the features and set up your store. The only restrictions are that you cannot edit the theme's code or publish it to your live storefront until you purchase a license.
-{% endhint %}
+### Explore Avante Docs
 
-Ready to test it on your store?
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-rocket-launch" style="color:$primary;">:rocket-launch:</i></h4></td><td><h4>Getting started</h4></td><td>Install and launch your store with Avante quickly.</td><td><a href="https://app.gitbook.com/s/6DraMvJNYYlFJqlho1aV/getting-started">Getting Started</a></td></tr><tr><td><h4><i class="fa-block" style="color:$primary;">:block:</i></h4></td><td><h4>Theme blocks</h4></td><td>Discover available theme blocks for customizing.</td><td><a href="/broken/pages/EFXeLTHVDQLFgK0Iy51O">Broken link</a></td></tr><tr><td><h4><i class="fa-book-atlas" style="color:$primary;">:book-atlas:</i></h4></td><td><h4>Global sections</h4></td><td>Edit page's global sections like Header and Footer.</td><td><a href="/broken/pages/oUUNprjFZmH3rqDBvb9h">Broken link</a></td></tr><tr><td><h4><i class="fa-reflect-both" style="color:$primary;">:reflect-both:</i></h4></td><td><h4>Theme sections</h4></td><td>Customize dynamic content sections for your pages.</td><td><a href="/broken/pages/AYVJmAXbSHYSDodrPBYA">Broken link</a></td></tr><tr><td><h4><i class="fa-gears" style="color:$primary;">:gears:</i></h4></td><td><h4>Theme settings</h4></td><td>Control colors, fonts, layout, and design system-wide.</td><td></td></tr><tr><td><h4><i class="fa-album-collection-circle-plus" style="color:$primary;">:album-collection-circle-plus:</i></h4></td><td><h4>Collection &#x26; Products</h4></td><td>Set up product displays and collection layouts.</td><td></td></tr><tr><td><h4><i class="fa-question" style="color:$primary;">:question:</i></h4></td><td><h4>FAQs</h4></td><td>Quick answers to common questions and theme usage.</td><td><a href="https://app.gitbook.com/s/6DraMvJNYYlFJqlho1aV/faq">FAQ</a></td></tr><tr><td><h4><i class="fa-scale-balanced" style="color:$primary;">:scale-balanced:</i></h4></td><td><h4>Legal</h4></td><td>Privacy, refund, support, and terms of service.</td><td><a href="https://app.gitbook.com/s/6DraMvJNYYlFJqlho1aV/legal">Policies &#x26; Legal</a></td></tr><tr><td><h4><i class="fa-rotate-exclamation" style="color:$primary;">:rotate-exclamation:</i></h4></td><td><h4>Changelog</h4></td><td>Release notes and version history for Avante.</td><td><a href="https://app.gitbook.com/s/6DraMvJNYYlFJqlho1aV/changelog">Changelog</a></td></tr></tbody></table>
 
-<a href="https://themes.shopify.com/themes/avante/presets/avante" class="button primary" data-icon="arrow-up-right-from-square">Try Avante for free</a>
+### Featured resources
 
-### Buy Avante from the Shopify Theme Store
+{% content-ref url="README (1).md" %}
+[README (1).md](<README (1).md>)
+{% endcontent-ref %}
 
-If you're happy with how the theme looks, you can buy it and keep all the customizations made during the trial.
-
-{% hint style="success" %}
-**Steps:**
-
-1. In your Shopify admin, click **Online Store > Themes**.
-2. In the Theme library section, click **Buy** on the Avante theme.
-3. Once purchased, click **Publish** to make it your live theme.
-{% endhint %}
-
-{% hint style="warning" %}
-**Licensing:** According to Shopify's Terms of Service, **1 license = 1 store**. The theme is licensed exclusively to the store where the purchase was made. Theme purchases are final and non-refundable.
-{% endhint %}
-
-### Upload a theme file from your computer (ZIP)
-
-{% hint style="warning" icon="octagon-exclamation" %}
-**Warning:** Uploading a ZIP file breaks the connection to  the Shopify Theme Store. You will **not** receive automatic updates and will need to migrate your settings manually with each new release. We strongly recommend installing directly from the Theme Store.
-{% endhint %}
-
-If you need to upload a ZIP file:
-
-{% hint style="success" %}
-**Steps:**
-
-1. From your Shopify admin, go to **Online Store > Themes**.
-2. In the **Theme library** section, click **Import > Upload zip file**.
-3. In the **Upload theme** modal, click **Add file** to select the ZIP file you want to upload.
-4. Click **Upload file** — the theme will appear in your Theme library.
-{% endhint %}
-
-<figure><img src=".gitbook/assets/Screenshot 2026-06-03 at 14.31.39.png" alt=""><figcaption></figcaption></figure>
+{% content-ref url="https://app.gitbook.com/s/6DraMvJNYYlFJqlho1aV/faq" %}
+[FAQ](https://app.gitbook.com/s/6DraMvJNYYlFJqlho1aV/faq)
+{% endcontent-ref %}
