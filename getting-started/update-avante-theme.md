@@ -4,19 +4,21 @@ description: A guide to update the theme to the latest version
 
 # Update Avante theme
 
-Keeping your **Avante theme** up to date ensures your store benefits from the latest features, bug fixes, and compatibility improvements.&#x20;
+Keeping your Avante theme up to date ensures your store benefits from the latest features, bug fixes, and compatibility improvements.
 
-> The most up-to-date version of the theme is always available on the Shopify Theme Store.
+The most up-to-date version is always available on the Shopify Theme Store.
 
-{% hint style="danger" %}
-Any **code customizations** in your current theme are **not transferred automatically** to a new theme version.&#x20;
+### Minor vs. major updates
 
-You'll need to manually duplicate and move custom code to the updated theme.
-{% endhint %}
+Before updating, it's important to understand how Shopify handles different types of updates:
+
+**Minor updates** (e.g. v13.0.0 → v13.0.1) Shopify automatically transfers your visual settings and safe code customizations.
+
+**Major updates** (e.g. v13.0.0 → v14.0.0) The theme's core architecture changes significantly. Visual settings (colors, fonts) and custom code are not transferred automatically — you will need to reconfigure them manually.
 
 ***
 
-### Update the theme automatically ⚙️
+### Update automatically ⚙️
 
 {% stepper %}
 {% step %}
@@ -24,7 +26,7 @@ You'll need to manually duplicate and move custom code to the updated theme.
 
 In your Shopify admin, go to **Online Store > Themes**. If a new version of Avante is available, you'll see a notification in your theme library.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-06-03 at 14.31.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-11 at 13.05.55.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -43,15 +45,17 @@ The updated version will now appear in your theme library, ready to customize an
 {% endstep %}
 {% endstepper %}
 
-### Troubleshooting: no update notification? 🔍
+### No update notification? 🔍
 
-If you don't see an update notification, it could be due to code customizations conflicting with Shopify's update system, or the theme was previously uploaded as a ZIP file. In this case, you can manually reinstall the theme and transfer your customizations.
+This usually happens if the theme was previously uploaded as a ZIP file (which breaks the connection to the Theme Store) or if there are code customizations conflicting with Shopify's update system.&#x20;
+
+In this case, reinstall the theme manually:
 
 {% stepper %}
 {% step %}
 #### Create a backup
 
-Before updating, always **duplicate** your current theme so you can restore your store if something goes wrong.&#x20;
+Always duplicate your current theme before updating.
 
 {% hint style="success" %}
 **Steps:**
@@ -65,42 +69,42 @@ Before updating, always **duplicate** your current theme so you can restore your
 {% step %}
 #### Install the latest theme version
 
-Install the theme from the Shopify Theme Store.
-
 {% hint style="success" %}
 **Steps:**
 
 1. Visit the Shopify Theme Store and choose **Avante** them&#x65;**.**
-2. Click **Add a new copy** to add the latest theme version to your online store.
+2. Click **Add a new copy** to add the latest version.
 {% endhint %}
 {% endstep %}
 
 {% step %}
-#### Move the theme settings and pages
+#### Transfer your settings
 
-After uploading the new theme, transfer your settings, custom templates, and modifications to the new version.
+{% hint style="warning" icon="octagon-exclamation" %}
+**Major update (e.g. v13 → v14)**&#x20;
+
+Do NOT copy the `settings_data.json` file. The architecture has changed — pasting old code will break the new theme and cause errors in Theme Editor.&#x20;
+
+**Reconfigure your Theme Settings (Colors, Typography) manually in the Theme Editor.**
+{% endhint %}
 
 {% hint style="success" %}
-**Steps:**
+**Minor update (e.g. v13.0.0 → v13.0.1)**&#x20;
 
-1. Go to your current theme, click **Actions > Edit code**.\\
-2. Copy the following files from the **old theme** and paste them into the same folders in the **new version**:
-   * All edited **JSON files** in the `Templates` folder.
-   * The `settings_data.json` file in the `Config` folder.
-3. Re-create custom templates (if any).
+You can safely copy `settings_data.json` from the `Config` folder of your old theme into the new one via **Edit code**.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-06-03 at 14.31.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-11 at 13.13.56.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-For custom templates, you'll need to create the JSON template in the new theme files since they won't exist there by default. More details [here](https://help.shopify.com/manual/online-store/themes/theme-structure/templates#create-a-new-template) from Shopify on creating new templates in the theme.
-{% endhint %}
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-11 at 13.14.55.png" alt=""><figcaption></figcaption></figure>
+
+**For custom page templates:** Re-create your custom templates in the new theme — they won't exist there by default. Create a template with the exact same name, then copy the contents of the JSON file from the `Templates` folder of your old theme.
 {% endstep %}
 
 {% step %}
 #### Re-install apps
 
-Any apps that add code to your theme's files will need to be reinstalled. This can be an automatic or manual process depending on the app, so **confirm with the app's developer whether removing and adding the app is enough to connect with the new version.**
+Apps that add code to your theme files will need to be reinstalled or re-enabled in the new version.
 
 {% hint style="info" %}
 Find the app documentation in the [App Store](https://apps.shopify.com/) to follow the installation instructions.
