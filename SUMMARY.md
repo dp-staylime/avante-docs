@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Welcome to Avante Documentation](README.md)
-
 ## Getting Started
 
-* [Install & activate Avante](getting-started/install-avante-theme.md)
+* [Install & activate Avante](README.md)
 * [Update Avante theme](getting-started/update-avante-theme.md)
 * [Theme license & Transfer](getting-started/theme-license-and-transfer.md)
 
@@ -14,6 +12,9 @@
 * [Footer](global-sections/footer.md)
 * [Cart drawer](global-sections/cart-drawer.md)
 * [Mobile header](global-sections/mobile-header.md)
+* [Announcement bar](global-sections/announcement-bar.md)
+* [Popup](global-sections/popup.md)
+* [Flyout](global-sections/flyout.md)
 
 ## Theme Settings
 
@@ -36,20 +37,35 @@
 ## Sections
 
 * [Overview](sections/README.md)
+* [Slideshow with media](sections/slideshow-with-media.md)
+* [Image banner](sections/image-banner.md)
+* [Shoppable Media Slider](sections/shoppable-media-slider.md)
+* [Media with text](sections/media-with-text.md)
+* [Featured collection](sections/featured-collection.md)
 
 ## Templates
 
 * [Overview](templates/README.md)
+* [Product templates](templates/product-templates.md)
+* [Pre-order template](templates/pre-order-template.md)
 
 ## Features & Advanced Setup
 
 * [Mega menu & Hover mega menu](features/mega-menu.md)
 * [Transparent header](features/transparent-header.md)
 * [Store Selector](features/store-selector.md)
-* [How to set up color swatches](features/color-swatches.md)
+* [Linked Products](features-and-advanced-setup/linked-products.md)
+* [Product badges](features-and-advanced-setup/product-badges.md)
+* [Countdown timer](features-and-advanced-setup/countdown-timer.md)
+* [RTL support](features-and-advanced-setup/rtl-support.md)
+* [Color swatches](features/color-swatches.md)
 * [Product subtitle](features/product-subtitle.md)
 * [Display only media related to chosen variant](features/display-variant-media.md)
-* [Variant images vs. Color Swatches](features/variant-images-vs-color-swatches.md)
+* [Variant images vs Color Swatches](features/variant-images-vs-color-swatches.md)
+
+***
+
+* [Welcome to Avante Documentation](<README (1).md>)
 
 ## FAQ
 
