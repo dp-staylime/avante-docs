@@ -6,7 +6,7 @@ Transparent navigation requires two settings to be active at the same time.
 {% step %}
 ### Enable the global setting
 
-1. Go to **Theme Editor → Theme settings → Appearance**&#x20;
+1. Go to **Theme Editor → Theme settings → Appearance**
 2. Scroll down to **Transparent header and sidebars**
 3. Enable **Allow transparent navigation**
 4. **Enable on mobile** if you want the effect on small screens as well
@@ -26,11 +26,12 @@ Transparent navigation requires two settings to be active at the same time.
 {% endstepper %}
 
 {% hint style="warning" %}
-Both settings must be active at the same time.&#x20;
+Both settings must be active at the same time.
 
 If only one is enabled, the transparent effect will not appear.
 {% endhint %}
 
-***
+{% hint style="success" icon="lightbulb" %}
+For the full setup, including Sidebar navigation, see [**Transparent header →**](../../features/transparent-header.md)
+{% endhint %}
 
-For the full setup including Sidebar navigation see [Transparent header →](../../features/transparent-header.md)
