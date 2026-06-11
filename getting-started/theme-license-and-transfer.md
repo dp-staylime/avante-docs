@@ -1,31 +1,51 @@
 # Theme license & Transfer
 
-{% hint style="info" %}
-When you purchase the theme from the Shopify Theme Store, **that theme is licensed exclusively to the store where the purchase was made**.&#x20;
+{% hint style="warning" %}
+When you purchase the theme from the Shopify Theme Store, **that theme is licensed exclusively to the store where the purchase was made**.
 
-For more detailed information on licensing, refer to [Shopify's Terms of Service](https://www.shopify.com/legal/terms).
+According to [Shopify's Terms of Service](https://www.shopify.com/legal/terms): **1 license = 1 store.** You cannot download a ZIP file and upload it to a second store.
 {% endhint %}
 
-🛑 **Unlicensed themes don't qualify for support or theme updates.**
+🛑 **Unlicensed themes do not qualify for support or updates.**&#x20;
 
-### Unlicensed theme use
+Uploading the theme to a different store without purchasing a new license breaks the connection to the Shopify Theme Store. You will not receive automatic updates, and our team will be unable to provide technical support for that installation.
 
-If you're notified that you have an unlicensed theme or you've received a Digital Millennium Copyright Act (DMCA) notice, you must take one of the following actions:
+### Unlicensed theme use & DMCA
 
-* **Purchase:** Buy the theme for the store where you plan to use it.
-* **Delete:** If you choose not to purchase the theme, simply remove it from your theme library.
-* **Transfer:** If you previously purchased a theme for an old store you no longer use (e.g. the store was closed), you may be able to transfer it to your new store.
+If you receive a notification that you are using an unlicensed theme, or a DMCA notice, it usually happens for one of two reasons:
+
+* The theme was uploaded via a ZIP file to a store without an active license
+* The theme purchase was refunded, but the theme remains active on your storefront
+
+**To resolve this, you must immediately take one of the following actions:**
+
+* **Purchase** — buy a valid license directly through the Shopify Theme Store for the store where you are using it.
+* **Delete** — if you choose not to purchase, completely remove the theme from your Shopify Theme Library.
 
 {% hint style="warning" %}
-We reserve the right to report your store to the Shopify legal team and issue a DMCA legal report to shut down your store if you are using an unlicensed theme.
+**Legal action:** We reserve the right to report your store to the Shopify legal team and issue a formal DMCA takedown request if you continue using an unlicensed theme.
 {% endhint %}
 
-### Am I allowed to import a theme from a different store?
+### How to transfer a license to a new store
 
-Importing a theme to another store is only possible if the theme was originally purchased from the Shopify Theme Store for that specific store.
+If you are rebranding or opening a new store and permanently closing your old one, you may want to transfer your theme license.
 
-### How to transfer a license?
+{% hint style="warning" %}
+**Important: theme developers cannot transfer licenses.**&#x20;
 
-Currently, **Shopify doesn't offer a way to transfer a theme license** between stores without permanently closing the original store.&#x20;
+We do not have access to your Shopify billing or licensing data and cannot manually move a license between stores. Only Shopify Support can assist with this process.
+{% endhint %}
 
-For specific instructions and requirements on transferring a license, please reach out to Shopify support.
+Shopify does not offer a "Transfer" button. The official process requires permanently closing the original store.
+
+{% hint style="success" icon="sparkles" %}
+**Steps:**
+
+1. Log in to your **new store** and purchase a fresh copy of Avante from the Shopify Theme Store
+2. Ensure your **old store** is permanently closed or the theme is completely deleted from it
+3. Contact **Shopify Support** (not the theme developer) — explain that you have closed your old store, purchased the theme again on the new store, and request a refund for the original purchase
+{% endhint %}
+
+{% hint style="warning" %}
+For further assistance, refer to [Shopify's official documentation](https://help.shopify.com) or contact Shopify Support directly.
+{% endhint %}
