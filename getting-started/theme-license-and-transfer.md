@@ -1,51 +1,53 @@
 # Theme license & Transfer
 
-{% hint style="warning" %}
-When you purchase the theme from the Shopify Theme Store, **that theme is licensed exclusively to the store where the purchase was made**.
+When you purchase Avante from the Shopify Theme Store, the theme is licensed exclusively to the store where the purchase was made.
 
-According to [Shopify's Terms of Service](https://www.shopify.com/legal/terms): **1 license = 1 store.** You cannot download a ZIP file and upload it to a second store.
-{% endhint %}
+According to Shopify's Terms of Service: **1 license = 1 store.** You cannot download a ZIP file and upload it to a second store.
 
-🛑 **Unlicensed themes do not qualify for support or updates.**&#x20;
+> 🛑 **Unlicensed themes do not qualify for support or updates.** Uploading the theme to a different store without purchasing a new license breaks the connection to the Shopify Theme Store. You will not receive automatic updates, and our team will be unable to provide technical support for that installation.
 
-Uploading the theme to a different store without purchasing a new license breaks the connection to the Shopify Theme Store. You will not receive automatic updates, and our team will be unable to provide technical support for that installation.
+***
 
 ### Unlicensed theme use & DMCA
 
-If you receive a notification that you are using an unlicensed theme, or a DMCA notice, it usually happens for one of two reasons:
+If you receive a notification that you are using an unlicensed theme, or a DMCA notice, you must take one of the following actions immediately:
 
-* The theme was uploaded via a ZIP file to a store without an active license
-* The theme purchase was refunded, but the theme remains active on your storefront
+**Purchase** — buy a valid license directly through the Shopify Theme Store for the store where you are using it.
 
-**To resolve this, you must immediately take one of the following actions:**
+**Delete** — if you choose not to purchase, completely remove the theme from your Shopify Theme Library.
 
-* **Purchase** — buy a valid license directly through the Shopify Theme Store for the store where you are using it.
-* **Delete** — if you choose not to purchase, completely remove the theme from your Shopify Theme Library.
+**Provide license information** — if you believe you already have a valid license, click "Provide license information" in the licensing issue message in your Shopify admin.
 
-{% hint style="warning" %}
-**Legal action:** We reserve the right to report your store to the Shopify legal team and issue a formal DMCA takedown request if you continue using an unlicensed theme.
-{% endhint %}
+> ⚠️ **Legal action:** We reserve the right to report your store to the Shopify legal team and issue a formal DMCA takedown request if you continue using an unlicensed theme.
+
+***
 
 ### How to transfer a license to a new store
 
-If you are rebranding or opening a new store and permanently closing your old one, you may want to transfer your theme license.
+If you are rebranding or opening a new store and permanently closing your old one, you may be eligible to transfer your theme license.
 
-{% hint style="warning" %}
-**Important: theme developers cannot transfer licenses.**&#x20;
+> 💡 **Important: theme developers cannot transfer licenses.** We do not have access to your Shopify billing or licensing data and cannot manually move a license between stores. Only Shopify Support can assist with this process.
 
-We do not have access to your Shopify billing or licensing data and cannot manually move a license between stores. Only Shopify Support can assist with this process.
-{% endhint %}
+**Requirements for transferring:**
 
-Shopify does not offer a "Transfer" button. The official process requires permanently closing the original store.
+* Both stores must have the **same account owner email**
+* You must be the registered owner of both accounts
+* You must **permanently close** the original store — it cannot be reopened after the transfer
 
-{% hint style="success" icon="sparkles" %}
 **Steps:**
 
-1. Log in to your **new store** and purchase a fresh copy of Avante from the Shopify Theme Store
-2. Ensure your **old store** is permanently closed or the theme is completely deleted from it
-3. Contact **Shopify Support** (not the theme developer) — explain that you have closed your old store, purchased the theme again on the new store, and request a refund for the original purchase
-{% endhint %}
+1. Go to **Online Store → Themes** on your old store
+2. Next to the theme, click **Actions → Download theme file** — a download link will be sent to your email
+3. Remove the theme from the original store including any renamed copies
+4. **Close the original store**
+5. Upload the theme ZIP file to your new store via **Online Store → Themes → Add theme → Upload zip file**
+6. **Purchase the theme again** for the new store
+7. _(Optional)_ Contact Shopify Support to request a refund on the original purchase
 
-{% hint style="warning" %}
-For further assistance, refer to [Shopify's official documentation](https://help.shopify.com) or contact Shopify Support directly.
-{% endhint %}
+***
+
+**Useful resources:**
+
+* [Understanding licensing and transferring themes →](https://help.shopify.com/en/manual/online-store/themes/managing-themes/unlicensed-themes)
+* [Buy a theme from the Shopify Theme Store →](https://help.shopify.com/en/manual/online-store/themes/adding-themes#buy-a-theme)
+* [Contact Shopify Support →](https://help.shopify.com/en/support)
