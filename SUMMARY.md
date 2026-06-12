@@ -79,7 +79,6 @@
   * [How do I create nested / dropdown menus?](faq/navigation/how-do-i-create-nested-dropdown-menus.md)
   * [Transparent header isn't working](faq/navigation/transparent-header-isnt-working.md)
   * [On mobile, tapping a parent menu item navigates away instead of expanding the submenu](faq/navigation/on-mobile-tapping-a-parent-menu-item-navigates-away-instead-of-expanding-the-submenu.md)
-  * [How do I set up the Smart category menu?](faq/navigation/how-do-i-set-up-the-smart-category-menu.md)
 * [Products & variants](faq/products-and-variants/README.md)
   * [A variant shows "Unavailable" but the product is in stock](faq/products-and-variants/a-variant-shows-unavailable-but-the-product-is-in-stock.md)
   * [How do I show color swatches?](faq/products-and-variants/how-do-i-show-color-swatches.md)
