@@ -25,7 +25,7 @@ Show a small color circle for each color.
 
 Best when you want a cleaner, simpler selector.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.22.38.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.43.56.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -39,23 +39,19 @@ For both options, the value in **Variant label** should match your product optio
 
 Variant images show a small thumbnail of the actual product photo for each color option.
 
-_Screenshot: Variant images on the product page._
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.45.28.png" alt=""><figcaption></figcaption></figure>
 
 {% stepper %}
 {% step %}
 #### Open the variant selector settings
 
-Open **Theme Editor**.
-
-Go to **Theme settings → Variant selector**.
+Open **Theme Editor**. Go to **Theme settings → Variant selector**.
 {% endstep %}
 
 {% step %}
 #### Enable variant images
 
-Scroll to **Variant image**.
-
-Enter your option name in **Variant label**.
+Scroll to **Variant image**. Enter your option name in **Variant label**.
 {% endstep %}
 
 {% step %}
@@ -70,37 +66,31 @@ Optionally adjust:
 {% endstep %}
 {% endstepper %}
 
-_Screenshot: Theme settings → Variant selector → Variant image → Variant label._
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.40.09.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 ### Set up color swatches
 
-Color swatches show a small color circle instead of a product photo.
+Color swatches show a small color circle instead of a product photo. This keeps the selector compact and easy to scan.
 
-This keeps the selector compact and easy to scan.
-
-_Screenshot: Color swatches on the product page._
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.44.52.png" alt=""><figcaption></figcaption></figure>
 
 {% stepper %}
 {% step %}
 #### Open the variant selector settings
 
-Open **Theme Editor**.
-
-Go to **Theme settings → Variant selector**.
+Open **Theme Editor**. Go to **Theme settings → Variant selector**.
 {% endstep %}
 
 {% step %}
 #### Enable color swatches
 
-Scroll to **Color pills**.
-
-Enter your option name in **Variant label**.
+Scroll to **Color pills**. Enter your option name in **Variant label**.
 {% endstep %}
 {% endstepper %}
 
-_Screenshot: Theme settings → Variant selector → Color pills → Variant label._
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.47.02.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -112,31 +102,32 @@ If a color name does not match, or the displayed shade looks wrong, you can uplo
 
 {% stepper %}
 {% step %}
+#### Set Style to Image in Theme settings
+
+1. Go to **Theme Editor → Theme settings → Variant selector → Color pills**
+2. In the **Variant label** field enter your option name (e.g. `Color`)
+3. Set **Style** to **Image**
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.52.19.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
 #### Prepare the image files
 
-Create PNG files for your color values.
-
-Name each file to match the variant value.
-
-Use lowercase letters and underscores for spaces.
-
-Examples:
+Create **PNG** files for your color values. Name each file to **match the variant** value. Use lowercase letters and underscores for spaces.
 
 * `Red` → `red.png`
 * `Ocean blue` → `ocean_blue.png`
 
-Recommended image size:
+Recommended: **60×60px**, under **20KB**
 
-* `60 × 60 px`
-* under `20 KB`
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.50.54.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 #### Upload the files in Shopify
 
-In Shopify admin, go to **Content → Files**.
-
-Upload the prepared images.
+In Shopify admin, go to **Content → Files**. Upload the prepared images.
 {% endstep %}
 
 {% step %}
@@ -145,8 +136,6 @@ Upload the prepared images.
 After upload, Avante automatically links the images to matching color variants across your store.
 {% endstep %}
 {% endstepper %}
-
-_Screenshot: Shopify Admin → Content → Files._
 
 {% hint style="info" %}
 Custom swatches only work when the file name matches the variant value format.
