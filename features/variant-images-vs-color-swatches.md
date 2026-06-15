@@ -143,6 +143,54 @@ Custom swatches only work when the file name matches the variant value format.
 
 ***
 
+### Alternative: set custom colors directly in Theme settings
+
+Instead of uploading PNG files, you can define custom colors directly in the Theme Editor.
+
+This is faster when you only need solid colors.
+
+{% stepper %}
+{% step %}
+#### Open the variant selector settings
+
+Go to **Theme Editor → Theme settings → Variant selector**.
+{% endstep %}
+
+{% step %}
+#### Open the custom color configuration
+
+Scroll to **Custom colors for pills → Configuration**.
+{% endstep %}
+
+{% step %}
+#### Add your color rules
+
+Add one rule per line in this format:
+
+```
+VariantName:#hexcolor
+```
+
+Example:
+
+```
+Red:#ff0000
+Ocean Blue:#4a90d9
+Bubble Pink:#f5b8c4
+```
+{% endstep %}
+{% endstepper %}
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 15.13.02.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Use the PNG method when you need textures, patterns, or photographic swatches.
+
+For solid colors, the **Configuration** field is quicker.
+{% endhint %}
+
+***
+
 Want the product gallery to show only media for the selected variant?
 
 See [Display only media related to chosen variant](display-variant-media.md).
