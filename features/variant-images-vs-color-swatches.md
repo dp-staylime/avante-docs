@@ -15,7 +15,7 @@ Show a small product thumbnail for each color.
 
 Best when each color has its own product photos.
 
-
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.23.15.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
@@ -24,6 +24,8 @@ Best when each color has its own product photos.
 Show a small color circle for each color.
 
 Best when you want a cleaner, simpler selector.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-15 at 14.22.38.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
