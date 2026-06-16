@@ -34,7 +34,7 @@ Linked Products let you connect separate products and display them as color swat
 5. Save
 6. Repeat for every product in the group
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-16 at 12.24.20.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ Linked Products let you connect separate products and display them as color swat
 2. Inside the **Product overview** section click **Add block → Linked products**
 3. Save
 
-📸 \[Screenshot: Theme Editor → Product overview → Add block → Linked products]
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-16 at 12.29.40.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -54,12 +54,14 @@ Linked Products let you connect separate products and display them as color swat
 2. Scroll down to **Linked products**
 3. Adjust **Image ratio**, **Focal point**, **Corner radius** and **Shadow** to match your store design
 
-📸 \[Screenshot: Theme settings → Variant selector → Linked products настройки]
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-16 at 12.31.29.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-> ⚠️ Each product in the group must have the metafield filled in — including the current product itself. If any product is missing it, its swatch won't appear on the other products' pages.
+{% hint style="warning" icon="triangle-exclamation" %}
+Each product in the group must have the metafield filled in — including the current product itself. If any product is missing it, its swatch won't appear on the other products' pages.
+{% endhint %}
 
-***
-
-> ⚠️ Linked Products requires each color to be a **separate product** in your catalog. If your colors currently exist as variants within one product, you will need to create individual products for each color first. This is a significant catalog restructuring — consider this before getting started.
+{% hint style="danger" icon="octagon-exclamation" %}
+Linked Products requires each color to be a **separate product** in your catalog. If your colors currently exist as variants within one product, you will need to create individual products for each color first. This is a significant catalog restructuring — consider this before getting started.
+{% endhint %}
