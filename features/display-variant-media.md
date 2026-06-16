@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Display only media related to chosen variant
 
-*Coming soon*
+_Coming soon_

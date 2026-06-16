@@ -1,5 +1,6 @@
 ---
 description: Configure product badges across product and collection views.
+hidden: true
 ---
 
 # Product badges

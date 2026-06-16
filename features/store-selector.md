@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Store Selector
 
-*Coming soon*
+_Coming soon_

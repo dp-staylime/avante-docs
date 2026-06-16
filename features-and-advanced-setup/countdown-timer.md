@@ -1,5 +1,6 @@
 ---
 description: Configure countdown timers in Avante.
+hidden: true
 ---
 
 # Countdown timer

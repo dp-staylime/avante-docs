@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Product subtitle
 
-*Coming soon*
+_Coming soon_

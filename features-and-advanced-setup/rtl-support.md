@@ -1,5 +1,6 @@
 ---
 description: Work with right-to-left layouts in Avante.
+hidden: true
 ---
 
 # RTL support

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Mega menu & Hover mega menu
 
 Avante includes two types of advanced navigation blocks for the Header — **Mega menu** and **Hover mega menu**. Both expand into a full-width panel when a visitor hovers over a menu item.
