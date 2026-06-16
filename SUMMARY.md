@@ -57,12 +57,12 @@
 * [Variant images vs Color Swatches](features/variant-images-vs-color-swatches.md)
 * [Linked Products](features-and-advanced-setup/linked-products.md)
 * [Mega menu & Hover mega menu](features/mega-menu.md)
+* [Display only media related to chosen variant](features/display-variant-media.md)
 * [Store Selector](features/store-selector.md)
 * [Product badges](features-and-advanced-setup/product-badges.md)
 * [Countdown timer](features-and-advanced-setup/countdown-timer.md)
 * [RTL support](features-and-advanced-setup/rtl-support.md)
 * [Product subtitle](features/product-subtitle.md)
-* [Display only media related to chosen variant](features/display-variant-media.md)
 
 ## FAQ
 
