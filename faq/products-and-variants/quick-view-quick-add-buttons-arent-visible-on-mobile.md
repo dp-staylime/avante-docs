@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Quick View / Quick Add buttons aren't visible on mobile
 
 These buttons appear on hover by default.

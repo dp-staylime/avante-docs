@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # How do I add a Pre-order button?
 
 1. Go to **Shopify Admin → Products**.

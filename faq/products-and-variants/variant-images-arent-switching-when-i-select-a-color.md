@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Variant images aren't switching when I select a color
 
 1. In **Theme Editor → Products → Product overview section**, make sure **Show the first image instead of the variant's** is unchecked.
