@@ -114,27 +114,8 @@ Type your content directly into the **Text** field. No metafield or page connect
 
 ***
 
-### Need different layouts per product?
+### Need a completely different page layout?
 
-If you need not just different content, but **different blocks and sections** entirely — for example, a rings page with a size ruler, a clothing page with a fit guide video, and a default page for everything else — create separate **product templates**.
+If you need different **blocks and sections** per product — not just different content — create separate product templates.
 
-**How to create a product template**
-
-1. In **Theme Editor**, click the template name at the top (**Default product**)
-2. Click **Create template**
-3. Name it — e.g. `rings`, `clothing`, `accessories`
-4. Customize the blocks and sections for this template independently
-5. Save
-
-`[SCREENSHOT: Theme Editor — template picker dropdown с кнопкой Create template]`
-
-**Assign a template to a product**
-
-1. Go to **Shopify Admin → Products** → open a product
-2. On the right side, find **Theme template**
-3. Select your template from the dropdown
-4. Save
-
-`[SCREENSHOT: Product page in Shopify Admin, правая панель с Theme template dropdown]`
-
-> **Note:** Templates are only available in the dropdown if they exist in your **currently published (live) theme**. Templates created in a draft or DEV copy won't appear here.
+See [Product templates](../../templates/product-templates.md) for the full guide.
