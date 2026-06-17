@@ -42,3 +42,5 @@ Go to **Shopify Admin → Online Store → Pages** → open a page → find **Th
 
 - [Product templates](product-templates.md) — how to create and manage multiple product templates
 - [Pre-order template](pre-order-template.md) — how to set up pre-order products
+- [Collection template](collection-template.md) — how to configure collection pages, filters, and product grid
+- [Page template](page-template.md) — how to create landing pages, FAQ pages, and custom page layouts
