@@ -4,37 +4,48 @@ The Store Selector lets customers switch between your retail or warehouse locati
 
 ***
 
-#### Step 1: Set up Shopify Locations
+### Step 1: Set up Shopify Locations
 
-Before configuring the Store Selector in the theme, make sure your locations are set up in Shopify Admin.
+Before configuring the Store Selector in the theme, set up your locations in Shopify Admin.
 
-Go to **Shopify Admin → Settings → Locations** and add each location with its full name and address. These are the locations the theme will link to.
+Go to **Shopify Admin → Settings → Locations** and make sure all your locations are active.
 
-> **Important:** The store name you enter in the theme must exactly match the location name in Shopify Admin → Settings → Locations. Any mismatch will break the availability display.
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 10.46.01.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+**Note:** The location names shown here (e.g. "TBB Store Boston", "Warehouse Brussels") are exactly what you need to enter in the **Store name** field in the theme. Copy them character-for-character.
+{% endhint %}
+
+Then open each location and make sure **Pickup in store** is set to **On** under the Fulfillment section. Without this, the availability widget won't display for that location.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 11.19.42.png" alt=""><figcaption></figcaption></figure>
+
+For full setup instructions, follow Shopify's official guide: [Setting up pickup in store for online orders](https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)
 
 ***
 
-#### Step 2: Add the Store Selector drawer
-
-The Store Selector drawer is a section that lives in the header area. Each store inside it corresponds to one Shopify Location.
+### Step 2: Add the Store Selector drawer
 
 1. Open **Theme Editor**
 2. In the left panel, find **More header sections** group
 3. Click **Add section → Store selector drawer**
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 11.00.56.png" alt=""><figcaption></figcaption></figure>
+
 4. Inside the section, click **Add block → Store**
 5. Fill in the block settings:
    * **Store name** — must exactly match the name in Shopify Admin → Settings → Locations
    * **Address** — shown inside the drawer
-   * **Image** — optional logo or photo
+   * **Image** — optional logo or location photo
    * **Details** — opening hours, pickup info, or any other text
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 11.21.39.png" alt=""><figcaption></figcaption></figure>
 
 Repeat for each location.
 
-`[SCREENSHOT: Theme Editor showing Store selector drawer section with two Store blocks, and the right panel showing Store name, Address, Image, Details fields — Image 2]`
-
 ***
 
-#### Step 3: Show Store Selector in navigation
+### Step 3: Show Store Selector in navigation
 
 **In the header**
 
@@ -43,18 +54,18 @@ Repeat for each location.
 3. Enable the **Enable** toggle
 4. Optionally enable **Show icon**
 
-`[SCREENSHOT: Header Miscellaneous block selected, right panel showing Store selector toggle enabled, "Select your store" visible in the header — Image 3]`
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 11.22.38.png" alt=""><figcaption></figcaption></figure>
 
 **In the menu drawer**
 
 1. In Theme Editor, open **Menu drawer section**
 2. Click **Add block → Store selector**
 
-The drawer will now show the store switcher when customers open the mobile menu.
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 11.24.06.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-#### Step 4: Show pickup availability on product cards
+### Step 4: Show pickup availability on product cards
 
 To display availability badges on product cards in collection pages:
 
@@ -63,21 +74,21 @@ To display availability badges on product cards in collection pages:
 3. In the right panel, scroll to **Product card content**
 4. Enable **Show pickup availability**
 
-`[SCREENSHOT: Collection page section selected in Theme Editor, right panel showing "Show pickup availability" toggle enabled, product cards showing "Available to pickup at SpecHaus" — Image 4]`
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 11.29.05.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-#### Step 5: Show pickup availability on the product page
+### Step 5: Show pickup availability on the product page
 
 1. In Theme Editor, open **Default product** template
 2. Inside **Product overview** section, click **Add block → Pickup availability**
 3. The block shows the currently selected store and availability for the active variant
 
-`[SCREENSHOT: Product overview section with Pickup availability block selected, right panel showing block settings, product page showing "Available to pickup at Focus and Frame" — Image 5]`
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 11.44.26.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-#### Customize colors
+### Customize colors
 
 To change the colors of the availability indicators:
 
@@ -90,10 +101,10 @@ Go to **Theme settings → Colors** and scroll to the **Pickup availability** gr
 | Out of stock text | Color of unavailable text       |
 | Out of stock icon | Color of the unavailable dot    |
 
-`[SCREENSHOT: Theme settings → Colors open, Pickup availability section highlighted with color pickers — Image 6]`
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 11.52.03.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-#### Live example
+### Live example
 
-`[SCREENSHOT: Store selector drawer open on storefront, showing two locations with addresses and checkboxes — Image 1]`
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-17 at 11.26.51.png" alt=""><figcaption></figcaption></figure>
