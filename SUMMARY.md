@@ -82,7 +82,7 @@
   * [A variant shows "Unavailable" but the product is in stock](faq/products-and-variants/a-variant-shows-unavailable-but-the-product-is-in-stock.md)
   * [How do I show color swatches?](faq/products-and-variants/how-do-i-show-color-swatches.md)
   * [How do I set up Linked Products?](faq/products-and-variants/how-do-i-set-up-linked-products.md)
-  * [How do I show different content per product (size charts, notes)?](faq/products-and-variants/how-do-i-show-different-content-per-product-size-charts-notes.md)
+  * [How do I show different content per product?](faq/products-and-variants/how-do-i-show-different-content-per-product.md)
   * [Variant images aren't switching when I select a color](faq/products-and-variants/variant-images-arent-switching-when-i-select-a-color.md)
   * [How do I show color swatches and a short description on collection cards?](faq/products-and-variants/how-do-i-show-color-swatches-and-a-short-description-on-collection-cards.md)
   * [How do I add a Pre-order button?](faq/products-and-variants/how-do-i-add-a-pre-order-button.md)
