@@ -50,6 +50,8 @@
 * [Overview](templates/README.md)
 * [Product templates](templates/product-templates.md)
 * [Pre-order template](templates/pre-order-template.md)
+* [Product templates](templates/product-templates.md)
+* [Pre-order template](templates/pre-order-template.md)
 
 ## Features & Advanced Setup
 
