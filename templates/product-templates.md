@@ -1,24 +1,28 @@
+---
+description: How to create a new product template
+---
+
 # Product templates
 
 Use product templates to give different types of products a completely different page layout — different blocks, sections, and content structure — without affecting other products.
 
----
+***
 
 ## When to use a separate template
 
 One product template = one layout. Use multiple templates when products genuinely need different page structures:
 
-| Example | Template |
-|---------|----------|
-| Standard products | `Default product` |
-| Pre-order items | `pre-order` |
-| Rings with size guide | `rings` |
-| Clothing with fit guide video | `clothing` |
-| Bundles | `bundle` |
+| Example                       | Template          |
+| ----------------------------- | ----------------- |
+| Standard products             | `Default product` |
+| Pre-order items               | `pre-order`       |
+| Rings with size guide         | `rings`           |
+| Clothing with fit guide video | `clothing`        |
+| Bundles                       | `bundle`          |
 
-If you only need **different content** (e.g. different size chart text per product), use metafields instead — see [How do I show different content per product?](../faq/different-content-per-product.md)
+If you only need **different content** (e.g. different size chart text per product), use metafields instead — see [How do I show different content per product?](../faq/products-and-variants/how-do-i-show-different-content-per-product.md)
 
----
+***
 
 ## How to create a product template
 
@@ -32,7 +36,7 @@ The new template starts as a copy of Default product. Customize its blocks and s
 
 > **Note:** Any changes you make to a template apply to all products assigned to that template.
 
----
+***
 
 ## How to assign a template to a product
 
@@ -41,9 +45,9 @@ The new template starts as a copy of Default product. Customize its blocks and s
 3. Select your template from the dropdown
 4. Save
 
-> ⚠️ **Templates only appear here from your published live theme.** If you created a template in a [DEV] copy or draft theme, it won't show in this dropdown. Create templates in your live theme first.
+> ⚠️ **Templates only appear here from your published live theme.** If you created a template in a \[DEV] copy or draft theme, it won't show in this dropdown. Create templates in your live theme first.
 
----
+***
 
 ## How to rename a product template
 
@@ -57,7 +61,7 @@ Renaming requires editing the theme code directly.
 
 > **Note:** The template name in the URL and in Shopify Admin will update automatically after renaming.
 
----
+***
 
 ## How to delete a product template
 
@@ -73,10 +77,10 @@ Deleting a template is not possible from the Theme Editor UI. It requires editin
 
 > **Note:** Products assigned to a deleted template automatically revert to the Default product template.
 
----
+***
 
 ## Related
 
-- [How do I show different content per product?](../faq/different-content-per-product.md)
-- [Pre-order template](pre-order-template.md)
-- [Templates overview](README.md)
+* [How do I show different content per product?](../faq/different-content-per-product.md)
+* [Pre-order template](pre-order-template.md)
+* [Templates overview](./)
