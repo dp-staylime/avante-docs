@@ -47,12 +47,17 @@ The new template starts as a copy of Default product. Customize its blocks and s
 
 ## How to delete a product template
 
-1. Open **Theme Editor**
-2. Switch to the template you want to delete
-3. Click `...` next to the template name
-4. Select **Delete template**
+Deleting a template is not possible from the Theme Editor UI. It requires editing the theme code directly.
 
-> **Note:** Deleting a template doesn't delete the products assigned to it. Those products revert to the Default product template automatically.
+1. Go to **Shopify Admin → Online Store → Themes**
+2. Next to your live theme, click **...** → **Edit code**
+3. In the left panel, open the **Templates** folder
+4. Find the template file — e.g. `product.rings.json`
+5. Click the file → click **Delete file**
+
+> ⚠️ **Make a backup before deleting.** Deleted code cannot be recovered. If you're not confident with code, contact Shopify Support or reach out to us.
+
+> **Note:** Products assigned to a deleted template automatically revert to the Default product template.
 
 ---
 
