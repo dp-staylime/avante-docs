@@ -58,7 +58,7 @@ If this animation is not working, check two things:
 
 Open **Theme Editor → Main sidebar → Main menu block** → set **Menu style** to **Overlap slide out**
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-06-11 at 15.16.19 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-11 at 15.16.19.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 This style is required for the hover background transition.
@@ -102,7 +102,7 @@ If it is set to **Set**, the background stays visible all the time.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-06-11 at 16.11.47.png" alt=""><figcaption></figcaption></figure>
 
-To change the background color across the entire site:&#x20;
+To change the background color across the entire site:
 
 Go to **Theme Editor → Theme settings → Colors → Layout** and update **Background**.
 
