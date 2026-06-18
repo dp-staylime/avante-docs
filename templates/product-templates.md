@@ -8,7 +8,7 @@ Use product templates to give different types of products a completely different
 
 ***
 
-## When to use a separate template
+### When to use a separate template
 
 One product template = one layout. Use multiple templates when products genuinely need different page structures:
 
@@ -24,63 +24,57 @@ If you only need **different content** (e.g. different size chart text per produ
 
 ***
 
-## How to create a product template
+### How to create a product template
 
-1. Open **Theme Editor**
-2. At the top, click the template name (**Default product**)
-3. Click **Create template**
-4. Enter a name — e.g. `rings`, `clothing`, `bundle`
-5. Click **Create**
+1. In the theme editor (**Customize**), use the page selector to open **Products** > **Create template**.
 
-The new template starts as a copy of Default product. Customize its blocks and sections independently.
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-18 at 14.42.20.png" alt=""><figcaption></figcaption></figure>
 
-> **Note:** Any changes you make to a template apply to all products assigned to that template.
+2. Add **Name** in the provided field for the new template.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-18 at 14.43.43.png" alt=""><figcaption></figcaption></figure>
+
+3. Select an existing product template to base on, then click **Create template**.
+
+{% hint style="warning" icon="triangle-exclamation" %}
+**Note:** Any changes you make to a template apply to all products assigned to that template.
+{% endhint %}
 
 ***
 
-## How to assign a template to a product
+### How to assign a template to a product
 
 1. Go to **Shopify Admin → Products** → open a product
 2. On the right side, find **Theme template**
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-18 at 14.48.58.png" alt=""><figcaption></figcaption></figure>
+
 3. Select your template from the dropdown
 4. Save
 
-> ⚠️ **Templates only appear here from your published live theme.** If you created a template in a \[DEV] copy or draft theme, it won't show in this dropdown. Create templates in your live theme first.
+{% hint style="warning" icon="octagon-exclamation" %}
+**Templates only appear here from your published live theme.** If you created a template in a \[DEV] copy or draft theme, it won't show in this dropdown. Create templates in your live theme first.
+{% endhint %}
 
 ***
 
-## How to rename a product template
+### Managing your templates <a href="#managing-your-templates" id="managing-your-templates"></a>
 
-Renaming requires editing the theme code directly.
+To rename or delete your template, you need to use the code editor. Editing your template file might cause issues with your online store.
 
-1. Go to **Shopify Admin → Online Store → Themes**
-2. Next to your live theme, click **...** → **Edit code**
-3. In the left panel, open the **Templates** folder
-4. Click the template file — e.g. `product.rings.json`
-5. Click **Rename file**, enter a new name, click **Rename file**
+#### **Rename a template**
 
-> **Note:** The template name in the URL and in Shopify Admin will update automatically after renaming.
+1. From your Shopify admin, go to **Online Store** > [**Themes**](https://www.shopify.com/admin/themes)
+2. Find the theme with the template that you want to rename, and then click the **...** button > **Edit code**.
+3. In the code editor, find the templates folder. Click the name of the template that you want to rename, and then click **Rename file**.
+4. Enter the new template name, and click **Rename file** to save.
 
-***
+#### **Delete a template**
 
-## How to delete a product template
+1. From your Shopify admin, go to **Online Store** > [**Themes**](https://www.shopify.com/admin/themes)
+2. Find the theme you want to delete a template from, and then click the **...** button > **Edit code**.
+3. In the code editor, find the templates folder. Click the name of the template that you want to delete, and then click **Delete file**.
 
-Deleting a template is not possible from the Theme Editor UI. It requires editing the theme code directly.
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-18 at 14.55.24.png" alt=""><figcaption></figcaption></figure>
 
-1. Go to **Shopify Admin → Online Store → Themes**
-2. Next to your live theme, click **...** → **Edit code**
-3. In the left panel, open the **Templates** folder
-4. Find the template file — e.g. `product.rings.json`
-5. Click the file → click **Delete file**
-
-> ⚠️ **Make a backup before deleting.** Deleted code cannot be recovered. If you're not confident with code, contact Shopify Support or reach out to us.
-
-> **Note:** Products assigned to a deleted template automatically revert to the Default product template.
-
-***
-
-## Related
-
-* [How do I show different content per product?](../faq/different-content-per-product.md)
-* [Pre-order template](pre-order-template.md)
-* [Templates overview](./)
+If you have any resources assigned to that template, then they are displayed with the default template until you assign a different one.
