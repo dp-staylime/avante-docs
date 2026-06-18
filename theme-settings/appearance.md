@@ -67,11 +67,21 @@ Open that section → enable **Overlap by navigation**
 {% endstep %}
 
 {% step %}
-If you use Sidebar-based navigation → open **Main sidebar section** in Theme Editor → scroll to **Colors** → set to **Default colors**. Without this, the sidebar will have its own background and the transparent effect won't work.
+If you use Sidebar-based navigation → open **Main sidebar** section in Theme Editor → scroll to **Colors** → set **Color scheme**.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-18 at 17.17.34.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" icon="triangle-exclamation" %}
+The sidebar will have its own background and override the transparency effect if the **"Swap"** or **"Set"** settings are selected.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-18 at 17.19.03.png" alt=""><figcaption><p>With <strong>Base</strong> selected, the sidebar becomes transparent and the first section shows through.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-For a full guide including logo setup for transparent state, see [Transparent header](../features/transparent-header.md).
+{% hint style="success" icon="sparkles" %}
+For a full guide including logo setup for transparent state, see [**Transparent header**](../features/transparent-header.md)**.**
+{% endhint %}
 
 ***
 
@@ -79,24 +89,18 @@ For a full guide including logo setup for transparent state, see [Transparent he
 
 Global spacing and layout controls.
 
-| Setting                            | Description                                                                                                                              |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Remove side padding for media**  | Lets images and videos go edge-to-edge while keeping text padding intact. Can be overridden per section (v13).                           |
-| **White space**                    | Controls spacing between blocks on the page. **Spacious** = larger gaps, **Compact** = tighter layout.                                   |
-| **Show lines**                     | Displays divider lines between elements throughout the theme. Line color is inherited from the text color.                               |
-| **Line width**                     | Set line thickness from 1px to 4px. Visible only when Show lines is enabled.                                                             |
-| **Line opacity**                   | Set line opacity from 0% to 100%. Visible only when Show lines is enabled.                                                               |
-| **Center text**                    | Aligns headings and content to center across all templates except navigation. Overridden by individual section/block alignment settings. |
-| **Max page width**                 | Sets the maximum width for page sections: 1200px, 1400px, 1700px, or Full-width.                                                         |
-| **Include header and footer**      | Applies the max page width to the header and footer as well.                                                                             |
-| **Enable custom product grid gap** | Unlocks manual control of spacing between product cards in grid sections (v14).                                                          |
-| **Column gap (desktop / mobile)**  | Sets the gap in pixels between product card columns. Available when custom grid gap is enabled.                                          |
+| Setting                              | Description                                                                                                                              |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Remove side padding for media**    | Lets images and videos go edge-to-edge while keeping text padding intact. Can be overridden per section (v13).                           |
+| **White space**                      | Controls spacing between blocks on the page. **Spacious** = larger gaps, **Compact** = tighter layout.                                   |
+| **Enable custom product grid gap**   | Unlocks manual control of spacing between product cards in grid sections (v14).                                                          |
+| **Column gap (desktop / mobile)**    | Sets the gap in pixels between product card columns. Available when custom grid gap is enabled.                                          |
+| **Show lines**                       | Displays divider lines between elements throughout the theme. Line color is inherited from the text color.                               |
+| **Line width**                       | Set line thickness from 1px to 4px. Visible only when Show lines is enabled.                                                             |
+| **Line opacity**                     | Set line opacity from 0% to 100%. Visible only when Show lines is enabled.                                                               |
+| **Center text**                      | Aligns headings and content to center across all templates except navigation. Overridden by individual section/block alignment settings. |
+| **Max page width**                   | Sets the maximum width for page sections: 1200px, 1400px, 1700px, or Full-width.                                                         |
+| **Include header and footer**        | Applies the max page width to the header and footer as well.                                                                             |
+| **Prevent iOS zoom in input fields** | Disables auto-zoom for input fields on iOS, preventing layout shifts.                                                                    |
 
-`[SCREENSHOT: Theme settings → Appearance → Other section with Remove side padding and White space visible]`
-
-***
-
-## Related
-
-* [Transparent header](../features/transparent-header.md) — full setup guide with logo configuration
-* [Navigation](navigation.md) — menu drawer style and burger icon settings
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-18 at 17.36.30.png" alt=""><figcaption></figcaption></figure>
