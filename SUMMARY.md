@@ -20,9 +20,9 @@
 
 ## Theme Settings
 
+* [Appearance](theme-settings/appearance.md)
 * [Colors](theme-settings/colors.md)
 * [Typography](theme-settings/typography.md)
-* [Appearance](theme-settings/appearance.md)
 * [Shapes](theme-settings/shapes.md)
 * [Animation](theme-settings/animation.md)
 * [Navigation](theme-settings/navigation.md)
