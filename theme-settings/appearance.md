@@ -23,7 +23,7 @@ Available only when **Sidebar-based** navigation is selected.
 
 | Setting | Description |
 |---------|-------------|
-| **Sidebar template** | Select the size of the main sidebar and whether to include a secondary sidebar. Options: Main XS, Main S, Main M, Main L — each with or without secondary. |
+| **Sidebar template** | Select the sidebar layout from 7 options: **Main XS**, **Main XS with secondary**, **Main S**, **Main S with secondary**, **Main M**, **Main M with secondary**, **Main L half screen**. |
 | **Show header** | Display a header above the sidebar. Enabled by a toggle. |
 
 ---
