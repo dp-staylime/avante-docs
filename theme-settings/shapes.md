@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Shapes
 
-*Coming soon*
+_Coming soon_

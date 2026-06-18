@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Navigation
 
-*Coming soon*
+_Coming soon_

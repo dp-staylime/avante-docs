@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Animation
 
-*Coming soon*
+_Coming soon_

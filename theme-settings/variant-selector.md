@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Variant selector
 
-*Coming soon*
+_Coming soon_

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Typography
 
-*Coming soon*
+_Coming soon_

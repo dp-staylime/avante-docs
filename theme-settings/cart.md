@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Cart
 
-*Coming soon*
+_Coming soon_

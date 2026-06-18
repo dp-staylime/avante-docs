@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Colors
 
-*Coming soon*
+_Coming soon_
