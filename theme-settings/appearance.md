@@ -40,30 +40,42 @@ The example below shows **Main S with secondary** — a compact main sidebar on 
 
 ***
 
-## Transparent header and sidebars
+### Transparent header and sidebars
 
 Make the header overlay the first section of the page instead of pushing it down.
 
-| Setting                          | Description                                                                                    |
-| -------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Allow transparent navigation** | Enables the transparent overlay effect. Must be combined with a supported section (see below). |
-| **Enable on mobile**             | Extends the transparent effect to mobile screens (v8).                                         |
+| Setting                          | Description                                                                        |
+| -------------------------------- | ---------------------------------------------------------------------------------- |
+| **Allow transparent navigation** | Enables the transparent overlay effect. Must be combined with a supported section. |
+| **Enable on mobile**             | Extends the transparent effect to mobile screens (v8).                             |
 
-**Supported sections:** Slideshow with media, Image banner, Video banner, Footer.
+> **Supported sections:** Slideshow with media, Image banner, Video banner, Footer.
 
-> ⚠️ **Three steps are required** for transparent navigation to work:
->
-> 1. Add a supported section (Slideshow, Image banner, or Video banner) to the **top** of your template
-> 2. Open that section → enable **Overlap by navigation**
-> 3. If using sidebars → open sidebar settings → set color scheme to **Default colors**
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-18 at 17.10.37.png" alt=""><figcaption></figcaption></figure>
 
-`[SCREENSHOT: Appearance panel showing Transparent header section with both toggles enabled]`
+**Three steps are required** for transparent navigation to work:
+
+{% stepper %}
+{% step %}
+Add a supported section (Slideshow, Image banner, or Video banner) to the **top** of your template
+{% endstep %}
+
+{% step %}
+Open that section → enable **Overlap by navigation**
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-18 at 17.11.22.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+If you use Sidebar-based navigation → open **Main sidebar section** in Theme Editor → scroll to **Colors** → set to **Default colors**. Without this, the sidebar will have its own background and the transparent effect won't work.
+{% endstep %}
+{% endstepper %}
 
 For a full guide including logo setup for transparent state, see [Transparent header](../features/transparent-header.md).
 
 ***
 
-## Other
+### Other
 
 Global spacing and layout controls.
 
