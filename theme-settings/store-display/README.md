@@ -9,6 +9,5 @@ Additional global settings for store functionality and display.
 * [Social media](social-media.md)
 * [Copy protection](../copy-protection.md)
 * [Gift card](gift-card.md)
-* [Checkout](checkout.md)
 * [Custom CSS](custom-css.md)
 * [Theme style](theme-style.md)

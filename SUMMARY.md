@@ -41,7 +41,6 @@
   * [Social media](theme-settings/store-display/social-media.md)
   * [Copy protection](theme-settings/store-display/copy-protection.md)
   * [Gift card](theme-settings/store-display/gift-card.md)
-  * [Checkout](theme-settings/store-display/checkout.md)
   * [Custom CSS](theme-settings/store-display/custom-css.md)
   * [Theme style](theme-settings/store-display/theme-style.md)
 
