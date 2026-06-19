@@ -23,6 +23,7 @@
 * [Appearance](theme-settings/appearance.md)
 * [Colors](theme-settings/colors.md)
 * [Typography](theme-settings/typography.md)
+* [Custom typography preset](theme-settings/custom-typography-preset.md)
 * [Shapes](theme-settings/shapes.md)
 * [Animation](theme-settings/animation.md)
 * [Navigation](theme-settings/navigation.md)
