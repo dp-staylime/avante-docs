@@ -17,3 +17,7 @@ Switch between pre-built style presets that combine all theme settings into a re
 {% hint style="warning" icon="triangle-exclamation" %}
 **Switching styles resets visual settings** — colors, typography, shapes, and animations will update to the new preset. Your store content (products, pages, collections) is not affected.
 {% endhint %}
+
+{% hint style="warning" icon="triangle-exclamation" %}
+**Important Note:** Switching presets updates visual settings only. Shopify does not automatically recreate the full demo content structure. If you want the exact layout from one of the demos, install that preset fresh from the [Shopify Theme Store](https://themes.shopify.com/themes/avante/presets/avante)
+{% endhint %}
