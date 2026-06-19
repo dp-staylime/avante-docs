@@ -87,6 +87,7 @@
   * [A page template isn't showing in the Shopify Admin dropdown](faq/theme-setup/a-page-template-isnt-showing-in-the-shopify-admin-dropdown.md)
   * [How do I create a FAQ page with expandable questions?](faq/theme-setup/how-do-i-create-a-faq-page-with-expandable-questions.md)
   * [Can I use custom fonts?](faq/theme-setup/can-i-use-custom-fonts.md)
+  * [Fonts not displaying in Safari or Firefox](faq/theme-setup/fonts-not-displaying-safari-firefox.md)
 * [Navigation](faq/navigation/README.md)
   * [Mega menu isn't working / dropdowns won't open](faq/navigation/mega-menu-isnt-working-dropdowns-wont-open.md)
   * [How do I create nested / dropdown menus?](faq/navigation/how-do-i-create-nested-dropdown-menus.md)
