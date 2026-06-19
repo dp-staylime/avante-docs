@@ -68,13 +68,13 @@
 
 * [Transparent header](features/transparent-header.md)
 * [Variant images vs Color Swatches](features/variant-images-vs-color-swatches.md)
-* [Linked Products](features-and-advanced-setup/linked-products.md)
+* [Linked Products](features/linked-products.md)
 * [Mega menu & Hover mega menu](features/mega-menu.md)
 * [Display only media related to chosen variant](features/display-variant-media.md)
 * [Store Selector](features/store-selector.md)
-* [Product badges](features-and-advanced-setup/product-badges.md)
-* [Countdown timer](features-and-advanced-setup/countdown-timer.md)
-* [RTL support](features-and-advanced-setup/rtl-support.md)
+* [Product badges](features/product-badges.md)
+* [Countdown timer](features/countdown-timer.md)
+* [RTL support](features/rtl-support.md)
 * [Product subtitle](features/product-subtitle.md)
 
 ## FAQ
