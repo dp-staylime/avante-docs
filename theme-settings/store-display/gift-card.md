@@ -4,6 +4,8 @@
 
 The gift card page is shown to the recipient after a gift card is purchased. It automatically generates a unique code, a QR code for easy redemption, and supports adding the card to Apple Wallet.
 
+<a href="https://help.shopify.com/en/manual/products/gift-card-products" class="button primary">Shopify gift cards guide</a>
+
 ***
 
 ### Customize the image
@@ -35,8 +37,17 @@ The gift card page uses a standalone Liquid template (`gift_card.liquid`) — no
 
 If the page loads but shows no content, it's caused by a conflict with the theme's fade-in animation. The `gift_card.liquid` template uses `{% layout none %}`, so standard scripts aren't loaded — leaving the content hidden.
 
-This requires a code-level fix. Contact our support team and we'll resolve it.
+**How to fix it:** You can easily resolve this by adding one line of code to the template.
+
+1. Go to Shopify **Admin → Online Store → Themes**.
+2. Click the **"..."** button next to your theme and select **Edit code**.
+3. Open the `templates/gift_card.liquid` file.
+4. Scroll to the very bottom and find the closing `</body>` tag.
+5. Paste the following code exactly before the `</body>` tag: `{{ 'global.js' | asset_url | script_tag }}`
+6. Click **Save**.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-19 at 17.05.38.png" alt=""><figcaption></figcaption></figure>
+
+_If you are not comfortable editing theme files, please_ [_contact our support team_](https://staylime.zendesk.com/hc/en-us/requests/new) _and we will resolve it for you!_
 
 </details>
-
-<a href="https://help.shopify.com/en/manual/products/gift-card-products" class="button primary">Shopify gift cards guide</a>
