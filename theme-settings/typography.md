@@ -8,11 +8,11 @@ description: >-
 
 Select fonts and typography presets to match your brand identity.
 
-`[SCREENSHOT: Full Typography panel in Theme settings]`
+<figure><img src="../.gitbook/assets/Group 9.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Typography preset
+### Typography preset
 
 Avante ships with 9 built-in presets. Each preset defines a combination of Base and Accent fonts with pre-configured sizes.
 
@@ -28,7 +28,7 @@ Avante ships with 9 built-in presets. Each preset defines a combination of Base 
 
 ***
 
-## Base
+### Base
 
 Used for body text throughout the store.
 
@@ -39,7 +39,7 @@ Used for body text throughout the store.
 
 ***
 
-## Accent
+### Accent
 
 Used for headings and titles.
 
@@ -50,7 +50,7 @@ Used for headings and titles.
 
 ***
 
-## Secondary
+### Secondary
 
 Used for supporting text elements where a third font variation is needed.
 
@@ -62,7 +62,7 @@ Used for supporting text elements where a third font variation is needed.
 
 ***
 
-## Font size scale
+### Font size scale
 
 Control how fonts scale across devices.
 
@@ -73,7 +73,7 @@ Control how fonts scale across devices.
 
 ***
 
-## Custom fonts
+### Custom fonts
 
 Upload your own brand fonts in WOFF or WOFF2 format.
 
@@ -82,10 +82,3 @@ Upload your own brand fonts in WOFF or WOFF2 format.
 Once enabled, follow the [Shopify custom fonts guide](https://shopify.dev/docs/themes/architecture/settings/fonts#custom-fonts) to upload your font files to the theme assets.
 
 > **Note:** Only WOFF and WOFF2 formats are supported.
-
-***
-
-## Related
-
-* [Appearance settings](appearance.md) — navigation layout and global spacing
-* [Shapes settings](shapes.md) — corner radii for buttons and cards
