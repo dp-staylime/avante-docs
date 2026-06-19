@@ -59,6 +59,12 @@ Nine independent text styles — **Heading XL, Heading L, Heading M, Heading S, 
 
 ---
 
+## Troubleshooting
+
+> ⚠️ **Fonts not applying in Safari or Firefox after updating to v14?** This is a known CSS bug in the v14 release where font variables are generated with invalid syntax that Safari and Firefox discard. Contact support — we'll apply the fix to your store.
+
+---
+
 ## Related
 
 - [Typography settings](typography.md) — font selection and presets
