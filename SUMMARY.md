@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-* [Install & activate Avante](<README (1).md>)
+* [Install & activate Avante](getting-started/install-and-activate-avante.md)
 * [Update Avante theme](getting-started/update-avante-theme.md)
 * [Theme license & Transfer](getting-started/theme-license-and-transfer.md)
 
@@ -61,8 +61,8 @@
 * [Overview](templates/README.md)
 * [Product templates](templates/product-templates.md)
 * [Pre-order template](templates/pre-order-template.md)
-* [Collection template](templates/pre-order-template-1.md)
-* [Page template](templates/pre-order-template-2.md)
+* [Collection template](templates/collection-template.md)
+* [Page template](templates/page-template.md)
 
 ## Features & Advanced Setup
 

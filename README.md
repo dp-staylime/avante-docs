@@ -6,11 +6,11 @@ description: >-
 
 # Welcome to Avante Documentation
 
-## What is Avante Shopify theme?
+### What is Avante Shopify theme?
 
 <figure><img src=".gitbook/assets/Group 1.png" alt=""><figcaption></figcaption></figure>
 
-<p align="center"><a href="https://themes.shopify.com/themes/avante/presets/avante">Install Avante from Shopify Theme Store</a></p>
+<p align="center"><a href="https://themes.shopify.com/themes/avante/presets/avante" class="button primary">Install Avante from Shopify Theme Store</a></p>
 
 **Avante** is a beautifully refined Shopify theme designed to help brands showcase their products with effortless style.
 
@@ -22,8 +22,8 @@ Exceptional UX built into every detail—engineered for conversion & growth by t
 
 ### Quick links
 
-{% content-ref url="README (1).md" %}
-[README (1).md](<README (1).md>)
+{% content-ref url="getting-started/install-and-activate-avante.md" %}
+[install-and-activate-avante.md](getting-started/install-and-activate-avante.md)
 {% endcontent-ref %}
 
 {% content-ref url="https://app.gitbook.com/s/6DraMvJNYYlFJqlho1aV/faq" %}
