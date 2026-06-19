@@ -1,0 +1,3 @@
+# Product placeholder
+
+*Coming soon*
