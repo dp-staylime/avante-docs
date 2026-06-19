@@ -14,7 +14,7 @@ Global colors for the page background, text, and UI elements.
 |---------|-------------|
 | **Background** | Default background color for all pages. |
 | **Text** | Default text color throughout the store. |
-| **Compare-at price color** | Choose **Theme default** to use the standard text color, or **Custom** to set a specific color for strikethrough prices. |
+| **Compare-at price color** | Choose how strikethrough prices are colored: **Sale badge text** uses the sale badge text color, **Sale badge background** uses the sale badge background color, or **Custom** to set a specific color. Sale badge colors are configured in **Theme settings → Product badges**. |
 | **Custom compare-at price color** | Visible only when Compare-at price color is set to Custom. Set via the color picker. (v13) |
 | **Popup background** | Background color for dropdowns, search panel, and modal windows. Choose a color close to your layout background for a seamless look. |
 | **Dim secondary text** | Reduces the brightness of secondary text colors throughout the theme. |
