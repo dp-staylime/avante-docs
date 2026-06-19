@@ -26,7 +26,7 @@ Avante ships with 9 built-in presets. Each preset defines a combination of Base 
 | **Contrast**          | Combination of Base and Accent fonts, high contrast between body and headings.                                                                |
 | **Brutalist**         | Combination of Base and Accent fonts, bold editorial style.                                                                                   |
 | **Duet**              | Combination of Base and Accent fonts, balanced pairing.                                                                                       |
-| **Custom**            | Full granular control over every individual text style. Additional settings appear under **Theme settings → Custom typography preset** (v11). |
+| **Custom** | Full granular control over every individual text style. See [Custom typography preset](custom-typography-preset.md) for all settings (v11). |
 
 **Swap base and accent fonts** — toggle to invert which font is used for body text and headings.
 
