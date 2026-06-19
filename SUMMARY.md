@@ -28,6 +28,17 @@
 * [Navigation](theme-settings/navigation.md)
 * [Variant selector](theme-settings/variant-selector.md)
 * [Cart](theme-settings/cart.md)
+* [Store & display settings](theme-settings/store-display/README.md)
+  * [Quick search](theme-settings/store-display/quick-search.md)
+  * [Product placeholder](theme-settings/store-display/product-placeholder.md)
+  * [Currency format](theme-settings/store-display/currency-format.md)
+  * [Favicon](theme-settings/store-display/favicon.md)
+  * [Social media](theme-settings/store-display/social-media.md)
+  * [Copy protection](theme-settings/store-display/copy-protection.md)
+  * [Gift card](theme-settings/store-display/gift-card.md)
+  * [Checkout](theme-settings/store-display/checkout.md)
+  * [Custom CSS](theme-settings/store-display/custom-css.md)
+  * [Theme style](theme-settings/store-display/theme-style.md)
 
 ## Collections & Products
 
