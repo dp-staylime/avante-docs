@@ -1,8 +1,8 @@
 # Currency format
 
-`[SCREENSHOT: Currency format panel in Theme settings]`
+<figure><img src="../../.gitbook/assets/Group 15.jpg" alt=""><figcaption></figcaption></figure>
 
 **Show currency codes** — displays the currency code alongside prices in cart and checkout.
 
-When enabled: *$1.00 USD*
-When disabled: *$1.00*
+When enabled: _$1.00 USD_\
+When disabled: _$1.00_
