@@ -46,7 +46,7 @@ A template only appears in the dropdown if it exists in your **currently publish
 
 * [Product templates](product-templates.md) — how to create and manage multiple product templates
 * [Pre-order template](pre-order-template.md) — how to set up pre-order products
-* [Collection template](pre-order-template-1.md) — how to configure collection pages, filters, and product grid
-* [Page template](pre-order-template-2.md) — how to create landing pages, FAQ pages, and custom page layouts
+* [Collection template](collection-template.md) — how to configure collection pages, filters, and product grid
+* [Page template](page-template.md) — how to create landing pages, FAQ pages, and custom page layouts
 * [Collection template](collection-template.md) — how to configure collection pages, filters, and product grid
 * [Page template](page-template.md) — how to create landing pages, FAQ pages, and custom page layouts

@@ -1,70 +1,52 @@
 # Custom typography preset
 
-Fine-tune fonts and sizes for each individual text style independently. To activate these settings, first select **Custom** in **Theme settings → Typography → Typography preset**.
+Full control over every individual text style — font, size, weight, spacing — independently for each heading and body level.
 
-`[SCREENSHOT: Custom typography preset panel]`
+{% hint style="success" icon="lightbulb" %}
+Available only when **Custom** is selected in **Theme settings → Typography → Typography preset**.
+{% endhint %}
 
----
+<figure><img src="../.gitbook/assets/Group 11.jpg" alt=""><figcaption></figcaption></figure>
 
-## Icon weight
+***
 
-Global weight for icons throughout the theme: *Regular, Medium, Bold.*
+### When to use Custom preset
 
----
+Switch to Custom when the built-in presets don't give you enough control:
 
-## Text styles
+{% columns %}
+{% column %}
+> **Mix fonts by heading level**\
+> Use Accent for H1, Base for H2–H3 for contrast.
 
-Nine independent text styles — **Heading XL, Heading L, Heading M, Heading S, Heading XS, Body L, Body M, Body S, Label** — each with the same controls:
+> **Tune letter-spacing**\
+> Add spacing for a luxury or editorial feel.
+{% endcolumn %}
 
-| Setting | Description |
-|---------|-------------|
-| **Font** | *Base, Accent,* or *Secondary* |
-| **Uppercase** | Converts text to uppercase. Only applies when section/block uses *Default for typography preset.* |
-| **Make font bolder** | Increases the font weight for this style. |
-| **Line height** | Vertical spacing between lines. |
-| **Desktop base size** | Font size on desktop (px). |
-| **Mobile base size** | Font size on mobile (px). |
-| **Letter-spacing** | Character tracking. |
+{% column %}
+> **Set responsive sizes per element**\
+> Control desktop and mobile sizes independently.
 
----
+> **Use uppercase selectively**\
+> Apply it only to labels or headings — not everywhere.
+{% endcolumn %}
+{% endcolumns %}
 
-## Buttons
+***
 
-| Setting | Available options |
-|---------|-------------------|
-| **Regular button label** | Default, Heading XL–XS (+ UPPERCASE), Body L–S (+ UPPERCASE), Label, Label UPPERCASE |
-| **Navigation button label** | Default, Heading M–XS (+ UPPERCASE), Body L–S (+ UPPERCASE), Label, Label UPPERCASE |
+### What you can control
 
----
+For each of the 9 text styles (**Heading XL → XS, Body L → S, Label**) you can set:\
+font, case, weight, line height, desktop/mobile size, and letter-spacing.
 
-## Product card
+{% hint style="success" icon="lightbulb" %}
+**Tip:** In Custom preset mode you can assign the **Secondary font** as a third independent typeface for specific UI elements like buttons or labels. Set it first in **Theme settings → Typography → Secondary**.
+{% endhint %}
 
-| Setting | Available options |
-|---------|-------------------|
-| **Title size** | Default, Heading M–XS (+ UPPERCASE), Body L–S (+ UPPERCASE), Label, Label UPPERCASE |
-| **Price size** | Default, Heading M–XS (+ UPPERCASE), Body L–S (+ UPPERCASE), Label, Label UPPERCASE |
-| **Text size** | Default, Heading S–XS (+ UPPERCASE), Body L–S (+ UPPERCASE), Label, Label UPPERCASE |
+Additional controls for **Buttons, Product cards, Collection cards,** and **Navigation** let you assign any text style to those UI elements.
 
----
+***
 
-## Collection card
-
-**Title size** — Default, Heading XL–XS (+ UPPERCASE), Body L–S (+ UPPERCASE), Label, Label UPPERCASE.
-
----
-
-## Navigation
-
-**Items size** — Default, Heading M–XS (+ UPPERCASE), Body L–S (+ UPPERCASE), Label, Label UPPERCASE.
-
----
-
-## Troubleshooting
-
-> ⚠️ **Fonts not applying in Safari or Firefox after updating to v14?** This is a known CSS bug in the v14 release where font variables are generated with invalid syntax that Safari and Firefox discard. Contact support — we'll apply the fix to your store.
-
----
-
-## Related
-
-- [Typography settings](typography.md) — font selection and presets
+{% hint style="danger" icon="question" %}
+**Fonts not applying in Safari or Firefox after updating to v14?** This is a known CSS bug in the v14 release. See [Fonts not displaying in Safari or Firefox](../faq/theme-setup/fonts-not-displaying-safari-firefox.md) for details and how to fix it.
+{% endhint %}

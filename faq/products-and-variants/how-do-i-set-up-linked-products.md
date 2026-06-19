@@ -7,7 +7,7 @@ This is useful when you want to:
 * Show each color as a separate product on Collection pages
 * Display only the images of the selected color in the gallery
 
-For the full setup guide see [Linked Products →](../../features-and-advanced-setup/linked-products.md)
+For the full setup guide see [Linked Products →](../../features/linked-products.md)
 
 ***
 
