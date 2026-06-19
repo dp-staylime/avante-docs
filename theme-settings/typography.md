@@ -36,35 +36,13 @@ Avante ships with 9 built-in presets. Each preset defines a combination of Base 
 
 ***
 
-### Base
+### Fonts
 
-Used for body text throughout the store.
-
-| Setting              | Description                                              |
-| -------------------- | -------------------------------------------------------- |
-| **Font**             | Select the base font from Shopify's font library.        |
-| **Base icon weight** | Weight for icons displayed alongside base font elements. |
-
-***
-
-### Accent
-
-Used for headings and titles.
-
-| Setting                | Description                                                |
-| ---------------------- | ---------------------------------------------------------- |
-| **Font**               | Select the accent font from Shopify's font library.        |
-| **Accent icon weight** | Weight for icons displayed alongside accent font elements. |
-
-***
-
-### Secondary
-
-Used for supporting text elements where a third font variation is needed.
-
-| Setting  | Description                                            |
-| -------- | ------------------------------------------------------ |
-| **Font** | Select the secondary font from Shopify's font library. |
+|               | Used for                                      | Icon weight             |
+| ------------- | --------------------------------------------- | ----------------------- |
+| **Base**      | Body text throughout the store                | Regular / Medium / Bold |
+| **Accent**    | Headings and titles                           | Regular / Medium / Bold |
+| **Secondary** | Third font variation for specific UI elements | —                       |
 
 {% hint style="success" icon="sparkles" %}
 **Tip:** To apply the Secondary heading style to a specific word anywhere in a text block, wrap it in {curly brackets} — e.g. `AVANTE—{BEYOND} THE ORDINARY`. The bracketed word will use the Secondary font defined here.
