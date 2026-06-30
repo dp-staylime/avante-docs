@@ -16,9 +16,7 @@ Hiding the link via the theme's global Custom CSS is the fastest, safest, and mo
 * **Works for all languages at once:** If your store is multilingual (Shopify Markets), this single CSS snippet hides the link across all languages instantly.
 * **Update-safe:** It won't be overwritten during minor theme updates.
 
-***
-
-### How to do it:
+#### How to do it:
 
 {% stepper %}
 {% step %}
@@ -54,11 +52,67 @@ _**Note:** Your store's copyright name and year will remain fully visible. Only 
 
 ### Why the Native Method (Edit Default Theme Content) Fails
 
-You might see outdated tutorials suggesting you remove this text using Shopify's language editor (Edit default theme content).&#x20;
+You might see tutorials suggesting you remove this text using Shopify's language editor (**Edit default theme content**) by entering a single space.
 
-However, this method does not actually let you delete the link.Nuances to keep in mind:
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-30 at 10.18.58.png" alt=""><figcaption></figcaption></figure>
 
-* It only renames the link: If you try to delete the text in the language editor, Shopify will not let you leave it completely blank or will force the default text back. The most you can do is rename the link to something else.
-* Manual repetition: If you use Shopify Markets, any text changes must be repeated manually for every single language your store uses.
+In our testing, this doesn't reliably remove the link — Shopify often forces the default text back, or the link remains visible even after saving.
 
-Because of these limitations, using the Custom CSS snippet above is the only reliable way to achieve a clean, white-labeled footer.
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-30 at 10.13.38.png" alt=""><figcaption></figcaption></figure>
+
+**Other limitations of this method, even when it does work:**
+
+* **Manual repetition:** If you use Shopify Markets, the change must be repeated manually for every single language your store uses.
+* **It only works on this specific field:** there's a separate "Powered by Shopify HTML" field for your store's password-protected "Opening soon" page, which needs the same edit repeated separately.
+
+Because of these limitations, we recommend skipping this method entirely and using the Custom CSS snippet above.
+
+***
+
+### Edit the theme code
+
+If you'd rather remove the link at the code level instead of using CSS:
+
+{% stepper %}
+{% step %}
+Go to **Online Store → Themes**.
+{% endstep %}
+
+{% step %}
+Click the three dots (...) next to your theme → **Edit code**.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-30 at 10.16.56.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+In the sidebar, open **Sections → footer.liquid**.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-30 at 10.20.47.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+Press `Ctrl+F` (Windows) or `Cmd+F` (Mac) and search for `powered_by_link`.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-30 at 10.21.49.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+Delete the entire line containing that tag — it will look like `{{ powered_by_link }}`.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-30 at 10.23.56.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+Click **Save**.
+{% endstep %}
+{% endstepper %}
+
+{% hint style="warning" icon="triangle-exclamation" %}
+**Note:** This directly edits a core theme file. It will be overwritten on the next theme update, and you'll need to re-apply it manually. The CSS method above doesn't have this problem — use it whenever possible.
+{% endhint %}
+
+***
+
+### Related
+
+[Shopify: Remove "Powered by Shopify" message](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/common-customizations/remove-powered-by-shopify-message) — official guide
