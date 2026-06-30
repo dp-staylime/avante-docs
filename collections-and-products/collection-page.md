@@ -1,16 +1,20 @@
+---
+hidden: true
+---
+
 # Collection page
 
 Configure your collection pages in **Theme Editor → Collections → Default collection** (or a custom collection template).
 
 ## Product grid settings
 
-| Setting | Notes |
-|---------|-------|
-| Products per row | 2–4 columns on desktop |
-| Infinite scroll / Load more | Choose how additional products load |
-| Image ratio | Keep consistent across products for a clean grid |
-| Show short description | Requires [Product subtitle](../features/product-subtitle.md) metafield |
-| Enable color pills | Shows color swatches on product cards |
+| Setting                     | Notes                                                                  |
+| --------------------------- | ---------------------------------------------------------------------- |
+| Products per row            | 2–4 columns on desktop                                                 |
+| Infinite scroll / Load more | Choose how additional products load                                    |
+| Image ratio                 | Keep consistent across products for a clean grid                       |
+| Show short description      | Requires [Product subtitle](../features/product-subtitle.md) metafield |
+| Enable color pills          | Shows color swatches on product cards                                  |
 
 ## Breadcrumbs
 

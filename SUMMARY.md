@@ -46,8 +46,8 @@
 
 ## Collections & Products
 
-* [Collection page](collections-and-products/collection-page.md)
 * [Filters & search](collections-and-products/filters-and-search.md)
+* [Collection page](collections-and-products/collection-page.md)
 * [Product page](collections-and-products/product-page.md)
 * [Product variants](collections-and-products/product-variants.md)
 
@@ -100,6 +100,7 @@
 * [Products & variants](faq/products-and-variants/README.md)
   * [A variant shows "Unavailable" but the product is in stock](faq/products-and-variants/a-variant-shows-unavailable-but-the-product-is-in-stock.md)
   * [How do I show color swatches?](faq/products-and-variants/how-do-i-show-color-swatches.md)
+  * [Why aren't my collection filters showing up?](faq/products-and-variants/how-do-i-show-color-swatches-1.md)
   * [How do I set up Linked Products?](faq/products-and-variants/how-do-i-set-up-linked-products.md)
   * [How do I show different content per product?](faq/products-and-variants/how-do-i-show-different-content-per-product.md)
   * [Variant images aren't switching when I select a color](faq/products-and-variants/variant-images-arent-switching-when-i-select-a-color.md)

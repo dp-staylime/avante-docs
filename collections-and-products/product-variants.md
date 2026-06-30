@@ -1,16 +1,21 @@
+---
+hidden: true
+---
+
 # Product variants
 
 ## Variant selector display
 
 Configure how variants appear in **Theme settings → Variant selector**:
 
-- **Dropdown** — classic select menu
-- **Pills** — clickable buttons for each option
-- **Color pills** — visual color swatches. Enter the exact option name (e.g. `Color`) to activate
+* **Dropdown** — classic select menu
+* **Pills** — clickable buttons for each option
+* **Color pills** — visual color swatches. Enter the exact option name (e.g. `Color`) to activate
 
 ## Color pills on collection cards
 
 To show color swatches on product cards in collection pages:
+
 1. Go to **Theme Editor → Collection template → Product grid section**
 2. Enable **"Enable color pills"**
 
