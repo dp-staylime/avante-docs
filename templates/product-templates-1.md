@@ -5,7 +5,11 @@ hidden: true
 
 # Search template
 
-The Search results section is the core component of your store's `/search` page. It displays products, collections, pages, and blog posts that match the customer's search query. It shares many layout and merchandising settings with your Collection pages, ensuring a consistent browsing experience.General & FilteringControl the main appearance of the search page and how customers filter the results.
+The **Search results** section is the core component of your store's `/search` page. It displays products, collections, pages, and blog posts that match the customer's search query. It shares many layout and merchandising settings with your Collection pages, ensuring a consistent browsing experience.
+
+### General & Filtering
+
+Control the main appearance of the search page and how customers filter the results.
 
 * Heading size & color: Adjust the size of the main search heading and choose between a Solid color or a Gradient.
 * Enable filtering and sorting: Toggles the filter sidebar/drawer and sorting dropdown. _(Note: The actual filter options are created and managed via the free Shopify Search & Discovery app)._
