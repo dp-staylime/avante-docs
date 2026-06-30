@@ -91,7 +91,7 @@
   * [How do I create a FAQ page with expandable questions?](faq/theme-setup/how-do-i-create-a-faq-page-with-expandable-questions.md)
   * [Can I use custom fonts?](faq/theme-setup/can-i-use-custom-fonts.md)
   * [Fonts not displaying in Safari or Firefox](faq/theme-setup/fonts-not-displaying-safari-firefox.md)
-  * [How to remove "Powered by Shopify" from the footer](faq/theme-setup/fonts-not-displaying-safari-firefox-1.md)
+  * [How to remove "Powered by Shopify" from the footer](faq/theme-setup/how-to-remove-powered-by-shopify-from-the-footer.md)
 * [Navigation](faq/navigation/README.md)
   * [Mega menu isn't working / dropdowns won't open](faq/navigation/mega-menu-isnt-working-dropdowns-wont-open.md)
   * [How do I create nested / dropdown menus?](faq/navigation/how-do-i-create-nested-dropdown-menus.md)
