@@ -67,5 +67,5 @@ The main `/search` page uses a flexible product grid that is very similar to you
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-06-30 at 16.33.02.png" alt=""><figcaption></figcaption></figure>
 
-For full instructions on how to configure its layout, adjust the grid, and manage blog post results, check out our detailed guide on the [**Search template**](../templates/product-templates-1.md).
+For full instructions on how to configure its layout, adjust the grid, and manage blog post results, check out our detailed guide on the [**Search template**](../templates/search-template.md).
 

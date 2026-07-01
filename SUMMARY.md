@@ -64,7 +64,7 @@
 
 * [Overview](templates/README.md)
 * [Product templates](templates/product-templates.md)
-* [Search template](templates/product-templates-1.md)
+* [Search template](templates/search-template.md)
 * [Pre-order template](templates/pre-order-template.md)
 * [Collection template](templates/collection-template.md)
 * [Page template](templates/page-template.md)
